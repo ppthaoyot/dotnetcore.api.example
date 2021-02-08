@@ -1,17 +1,17 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
-using NetCoreAPI_Template_v3_with_auth.Data;
-using NetCoreAPI_Template_v3_with_auth.DTOs;
-using NetCoreAPI_Template_v3_with_auth.Helpers;
-using NetCoreAPI_Template_v3_with_auth.Models;
+using SmileShop.API.Data;
+using SmileShop.API.DTOs;
+using SmileShop.API.Helpers;
+using SmileShop.API.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace NetCoreAPI_Template_v3_with_auth.Services
+namespace SmileShop.API.Services
 {
     public class ServiceBase
     {

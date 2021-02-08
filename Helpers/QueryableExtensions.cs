@@ -1,7 +1,7 @@
-﻿using NetCoreAPI_Template_v3_with_auth.DTOs;
+﻿using SmileShop.API.DTOs;
 using System.Linq;
 
-namespace NetCoreAPI_Template_v3_with_auth.Helpers
+namespace SmileShop.API.Helpers
 {
     public static class QueryableExtensions
     {

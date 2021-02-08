@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using NetCoreAPI_Template_v3_with_auth.DTOs;
-using NetCoreAPI_Template_v3_with_auth.Services;
+using SmileShop.API.DTOs;
+using SmileShop.API.Services;
 using System.Threading.Tasks;
 
-namespace NetCoreAPI_Template_v3_with_auth.Controllers
+namespace SmileShop.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

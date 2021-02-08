@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
-using NetCoreAPI_Template_v3_with_auth.DTOs;
+using SmileShop.API.DTOs;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NetCoreAPI_Template_v3_with_auth.Helpers
+namespace SmileShop.API.Helpers
 {
     public static class HttpContextExtensions
     {

@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "NetCoreAPI_Template_v3_with_auth": {
+    "SmileShop.API": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

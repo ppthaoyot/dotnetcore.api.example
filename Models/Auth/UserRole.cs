@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace NetCoreAPI_Template_v3_with_auth.Models
+namespace SmileShop.API.Models
 {
     [Table("UserRole", Schema = "auth")]
     public class UserRole

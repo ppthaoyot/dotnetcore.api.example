@@ -1,13 +1,17 @@
 ﻿using AutoMapper;
-using NetCoreAPI_Template_v3_with_auth.DTOs;
-using NetCoreAPI_Template_v3_with_auth.Models;
+using SmileShop.API.DTOs;
+using SmileShop.API.DTOs.Product;
+using SmileShop.API.DTOs.ProductGroup;
+using SmileShop.API.Models;
+using SmileShop.API.Models.Product;
+using SmileShop.API.Models.ProductGroup;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreAPI_Template_v3_with_auth
+namespace SmileShop.API
 {
     public class AutoMapperProfile : Profile
     {
@@ -19,6 +23,9 @@ namespace NetCoreAPI_Template_v3_with_auth
             CreateMap<RoleDtoAdd, Role>()
                 .ForMember(x => x.Name, x => x.MapFrom(x => x.RoleName)); ;
             CreateMap<UserRole, UserRoleDto>();
+
+            CreateMap<Product, GetProductDto>();
+            CreateMap<ProductGroup, GetProductGroupDto>();
         }
     }
 }

@@ -1,9 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NetCoreAPI_Template_v3_with_auth.Models;
+using SmileShop.API.Models;
+using SmileShop.API.Models.Product;
+using SmileShop.API.Models.ProductGroup;
 using System;
 using System.Collections.Generic;
 
-namespace NetCoreAPI_Template_v3_with_auth.Data
+namespace SmileShop.API.Data
 {
     public class AppDBContext : DbContext
     {
@@ -38,5 +40,8 @@ namespace NetCoreAPI_Template_v3_with_auth.Data
         public DbSet<Role> Roles { get; set; }
 
         public DbSet<UserRole> UserRoles { get; set; }
+        public DbSet<ProductGroup> ProductGroups { get; set; }
+
+        public DbSet<Product> Products { get; set; }
     }
 }

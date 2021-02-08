@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System.ComponentModel.DataAnnotations;
 
-namespace NetCoreAPI_Template_v3_with_auth.Validations
+namespace SmileShop.API.Validations
 {
     public class FileSizeValidator : ValidationAttribute
     {
