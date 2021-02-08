@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NetCoreAPI_Template_v3_with_auth.Models
+namespace SmileShop.API.Models
 {
     public class ServiceResponse<T>
     {

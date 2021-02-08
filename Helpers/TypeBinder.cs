@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using System.Threading.Tasks;
 
-namespace NetCoreAPI_Template_v3_with_auth.Helpers
+namespace SmileShop.API.Helpers
 {
     public class TypeBinder<T> : IModelBinder
     {

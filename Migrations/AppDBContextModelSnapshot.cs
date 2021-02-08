@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using NetCoreAPI_Template_v3_with_auth.Data;
+using SmileShop.API.Data;
 
-namespace NetCoreAPI_Template_v3_with_auth.Migrations
+namespace SmileShop.API.Migrations
 {
     [DbContext(typeof(AppDBContext))]
     partial class AppDBContextModelSnapshot : ModelSnapshot
@@ -19,7 +19,82 @@ namespace NetCoreAPI_Template_v3_with_auth.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("NetCoreAPI_Template_v3_with_auth.Models.Role", b =>
+            modelBuilder.Entity("SmileShop.API.Models.Product.Product", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.Property<int>("ProductGroupId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Stock")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("isActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductGroupId");
+
+                    b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("SmileShop.API.Models.ProductGroup.ProductGroup", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("isActive")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ProductGroup");
+                });
+
+            modelBuilder.Entity("SmileShop.API.Models.Role", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -37,27 +112,27 @@ namespace NetCoreAPI_Template_v3_with_auth.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("57e0bf9f-4625-4e39-a35a-a29d6bf7c910"),
+                            Id = new Guid("058ad2c5-05ba-4b30-9ed2-816b9052de94"),
                             Name = "user"
                         },
                         new
                         {
-                            Id = new Guid("f5d39aee-3f36-4436-9aba-ec42628928f1"),
+                            Id = new Guid("c4771ada-c7bd-47a2-84de-0e6c76d8eed1"),
                             Name = "Manager"
                         },
                         new
                         {
-                            Id = new Guid("531e713a-f058-4797-94d5-f16285f30502"),
+                            Id = new Guid("b3011d94-e5ac-48b2-8d7a-10eb8a2e4df7"),
                             Name = "Admin"
                         },
                         new
                         {
-                            Id = new Guid("62bfb6f0-98b7-43ec-a1ec-0db49dbbad03"),
+                            Id = new Guid("80ba75f8-ebf5-4431-8f69-be2f231646a4"),
                             Name = "Developer"
                         });
                 });
 
-            modelBuilder.Entity("NetCoreAPI_Template_v3_with_auth.Models.User", b =>
+            modelBuilder.Entity("SmileShop.API.Models.User", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -81,7 +156,7 @@ namespace NetCoreAPI_Template_v3_with_auth.Migrations
                     b.ToTable("User","auth");
                 });
 
-            modelBuilder.Entity("NetCoreAPI_Template_v3_with_auth.Models.UserRole", b =>
+            modelBuilder.Entity("SmileShop.API.Models.UserRole", b =>
                 {
                     b.Property<Guid>("UserId")
                         .HasColumnType("uniqueidentifier");
@@ -96,15 +171,24 @@ namespace NetCoreAPI_Template_v3_with_auth.Migrations
                     b.ToTable("UserRole","auth");
                 });
 
-            modelBuilder.Entity("NetCoreAPI_Template_v3_with_auth.Models.UserRole", b =>
+            modelBuilder.Entity("SmileShop.API.Models.Product.Product", b =>
                 {
-                    b.HasOne("NetCoreAPI_Template_v3_with_auth.Models.Role", "Role")
+                    b.HasOne("SmileShop.API.Models.ProductGroup.ProductGroup", "ProductGroup")
+                        .WithMany("Products")
+                        .HasForeignKey("ProductGroupId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("SmileShop.API.Models.UserRole", b =>
+                {
+                    b.HasOne("SmileShop.API.Models.Role", "Role")
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("NetCoreAPI_Template_v3_with_auth.Models.User", "User")
+                    b.HasOne("SmileShop.API.Models.User", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

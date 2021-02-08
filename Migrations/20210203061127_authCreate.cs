@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace NetCoreAPI_Template_v3_with_auth.Migrations
+namespace SmileShop.API.Migrations
 {
     public partial class authCreate : Migration
     {

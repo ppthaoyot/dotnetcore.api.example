@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using NetCoreAPI_Template_v3_with_auth.Data;
+using SmileShop.API.Data;
 
-namespace NetCoreAPI_Template_v3_with_auth.Migrations
+namespace SmileShop.API.Migrations
 {
     [DbContext(typeof(AppDBContext))]
     [Migration("20210203061127_authCreate")]
@@ -34,7 +34,7 @@ namespace NetCoreAPI_Template_v3_with_auth.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Role","auth");
+                    b.ToTable("Role", "auth");
 
                     b.HasData(
                         new
@@ -80,7 +80,7 @@ namespace NetCoreAPI_Template_v3_with_auth.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("User","auth");
+                    b.ToTable("User", "auth");
                 });
 
             modelBuilder.Entity("NetCoreAPI_Template_v3_with_auth.Models.UserRole", b =>
@@ -95,7 +95,7 @@ namespace NetCoreAPI_Template_v3_with_auth.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("UserRole","auth");
+                    b.ToTable("UserRole", "auth");
                 });
 
             modelBuilder.Entity("NetCoreAPI_Template_v3_with_auth.Models.UserRole", b =>

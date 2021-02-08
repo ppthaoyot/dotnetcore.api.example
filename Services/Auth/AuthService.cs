@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using NetCoreAPI_Template_v3_with_auth.Data;
-using NetCoreAPI_Template_v3_with_auth.DTOs;
-using NetCoreAPI_Template_v3_with_auth.Models;
+using SmileShop.API.Data;
+using SmileShop.API.DTOs;
+using SmileShop.API.Models;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -15,7 +15,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreAPI_Template_v3_with_auth.Services
+namespace SmileShop.API.Services
 {
     public class AuthService : ServiceBase, IAuthService
     {

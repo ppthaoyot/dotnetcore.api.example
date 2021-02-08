@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace NetCoreAPI_Template_v3_with_auth.Helpers
+namespace SmileShop.API.Helpers
 {
     public static class HealthCheckResponseWriter
     {

@@ -1,6 +1,6 @@
-﻿using NetCoreAPI_Template_v3_with_auth.DTOs;
+﻿using SmileShop.API.DTOs;
 
-namespace NetCoreAPI_Template_v3_with_auth.Models
+namespace SmileShop.API.Models
 {
     public class ServiceResponseWithPagination<T> : ServiceResponse<T>
     {

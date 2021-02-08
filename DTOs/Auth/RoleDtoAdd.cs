@@ -1,6 +1,6 @@
-﻿using NetCoreAPI_Template_v3_with_auth.Validations;
+﻿using SmileShop.API.Validations;
 
-namespace NetCoreAPI_Template_v3_with_auth.DTOs
+namespace SmileShop.API.DTOs
 {
     public class RoleDtoAdd
     {

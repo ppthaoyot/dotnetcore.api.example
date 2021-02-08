@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NetCoreAPI_Template_v3_with_auth.DTOs
+namespace SmileShop.API.DTOs
 {
     public class UserRoleDto
     {

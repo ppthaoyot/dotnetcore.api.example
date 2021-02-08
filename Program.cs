@@ -5,7 +5,7 @@ using Serilog;
 using System;
 using System.IO;
 
-namespace NetCoreAPI_Template_v3_with_auth
+namespace SmileShop.API
 {
     public class Program
     {

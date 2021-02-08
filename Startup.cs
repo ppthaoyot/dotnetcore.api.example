@@ -13,20 +13,22 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.Net.Http.Headers;
 using Microsoft.OpenApi.Models;
-using NetCoreAPI_Template_v3_with_auth.Data;
-using NetCoreAPI_Template_v3_with_auth.Helpers;
-using NetCoreAPI_Template_v3_with_auth.Services;
+using SmileShop.API.Data;
+using SmileShop.API.Helpers;
+using SmileShop.API.Services;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using SmileShop.API.Services.ProductGroup;
+using SmileShop.API.Services.Product;
 
-namespace NetCoreAPI_Template_v3_with_auth
+namespace SmileShop.API
 {
     public class Startup
     {
-        private const string _projectName = "NetCoreAPI_Template_v3_with_auth";
+        private const string _projectName = nameof(SmileShop.API);
 
         public Startup(IConfiguration configuration)
         {
@@ -38,8 +40,10 @@ namespace NetCoreAPI_Template_v3_with_auth
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers()
-                .AddNewtonsoftJson(options => options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore); //ReferenceLoopHandling;
+            // services.AddControllers()
+            //     .AddNewtonsoftJson(options => options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore); //ReferenceLoopHandling;
+
+            services.AddControllers(mvcOptions => mvcOptions.EnableEndpointRouting = false).AddNewtonsoftJson();
 
             services.AddHttpContextAccessor();
             services.AddResponseCaching();
@@ -88,6 +92,8 @@ namespace NetCoreAPI_Template_v3_with_auth
             //------Service------
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IProductGroupService, ProductGroupService>();
+            services.AddScoped<IProductService, ProductService>();
             //------End: Service------
 
             AddFormatters(services);

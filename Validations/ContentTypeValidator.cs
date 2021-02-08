@@ -3,7 +3,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace NetCoreAPI_Template_v3_with_auth.Validations
+namespace SmileShop.API.Validations
 {
     public class ContentTypeValidator : ValidationAttribute
     {

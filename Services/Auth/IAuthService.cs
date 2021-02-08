@@ -1,12 +1,12 @@
-﻿using NetCoreAPI_Template_v3_with_auth.DTOs;
-using NetCoreAPI_Template_v3_with_auth.Models;
+﻿using SmileShop.API.DTOs;
+using SmileShop.API.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreAPI_Template_v3_with_auth.Services
+namespace SmileShop.API.Services
 {
     public interface IAuthService
     {
