@@ -12,5 +12,6 @@ namespace SmileShop.API.Services.ProductGroup
         Task<ServiceResponse<GetProductGroupDto>> Add(AddProductGroupDto newProductGroup);
         Task<ServiceResponse<GetProductGroupDto>> Update(UpdateProductGroupDto updateProductGroup);
         Task<ServiceResponse<GetProductGroupDto>> Remove(int productGroupId);
+        Task<ServiceResponseWithPagination<List<GetProductGroupDto>>> Filter(FilterProductGroup filter);
     }
 }

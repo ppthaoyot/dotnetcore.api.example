@@ -26,6 +26,12 @@ namespace SmileShop.API.Controllers
             return Ok(await _pgService.GetAll());
         }
 
+        [HttpGet("filter")]
+        public async Task<IActionResult> Filter([FromQuery] FilterProductGroup filter)
+        {
+            return Ok(await _pgService.Filter(filter));
+        }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
@@ -8,7 +9,8 @@ using Microsoft.Extensions.Logging;
 using SmileShop.API.Data;
 using SmileShop.API.DTOs.ProductGroup;
 using SmileShop.API.Models;
-
+using System.Linq.Dynamic.Core;
+using SmileShop.API.Helpers;
 
 namespace SmileShop.API.Services.ProductGroup
 {
@@ -18,11 +20,14 @@ namespace SmileShop.API.Services.ProductGroup
         private readonly AppDBContext _dBContext;
         private readonly IMapper _mapper;
         private readonly ILogger<ProductGroupService> _log;
+        private readonly IHttpContextAccessor _httpContext;
+
         public ProductGroupService(AppDBContext dBContext, IMapper mapper, ILogger<ProductGroupService> log, IHttpContextAccessor httpContext) : base(dBContext, mapper, httpContext)
         {
             _dBContext = dBContext;
             _mapper = mapper;
             _log = log;
+            _httpContext = httpContext;
         }
 
         #endregion
@@ -92,9 +97,9 @@ namespace SmileShop.API.Services.ProductGroup
                 var addProductGroup = new Models.ProductGroup.ProductGroup
                 {
                     Name = newProductGroup.Name.Trim(),
-                    CreatedBy = GetUserId(),
+                    CreatedBy = "2",
                     CreatedDate = Now(),
-                    UpdatedBy = GetUserId(),
+                    UpdatedBy = "2",
                     UpdatedDate = Now(),
                     isActive = true
                 };
@@ -199,5 +204,44 @@ namespace SmileShop.API.Services.ProductGroup
             }
         }
 
+        public async Task<ServiceResponseWithPagination<List<GetProductGroupDto>>> Filter(FilterProductGroup filter)
+        {
+            try
+            {
+                _log.LogInformation("Start [Filter] Process.");
+                var queryable = _dBContext.ProductGroups.AsQueryable();
+
+                //Filter
+                if (!string.IsNullOrWhiteSpace(filter.Name))
+                {
+                    queryable = queryable.Where(x => x.Name.Contains(filter.Name));
+                }
+
+                //Ordering
+                if (!string.IsNullOrWhiteSpace(filter.OrderingField))
+                {
+                    try
+                    {
+                        queryable = queryable.OrderBy($"{filter.OrderingField} {(filter.AscendingOrder ? "asc" : "desc")}");
+                    }
+                    catch (System.Exception)
+                    {
+                        return ResponseResultWithPagination.Failure<List<GetProductGroupDto>>(string.Format("Could not order by field : {0}", filter.OrderingField));
+                    }
+                }
+
+                var paginationResult = await _httpContext.HttpContext.InsertPaginationParametersInResponse(queryable, filter.RecordsPerPage, filter.Page);
+                var lstFilter = await queryable.Paginate(filter).ToListAsync();
+
+                var dto = _mapper.Map<List<GetProductGroupDto>>(lstFilter);
+
+                return ResponseResultWithPagination.Success(dto, paginationResult);
+            }
+            catch (System.Exception ex)
+            {
+                _log.LogError(ex.Message);
+                return ResponseResultWithPagination.Failure<List<GetProductGroupDto>>(ex.Message);
+            }
+        }
     }
 }
