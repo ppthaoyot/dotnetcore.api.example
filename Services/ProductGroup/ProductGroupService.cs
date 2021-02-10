@@ -97,9 +97,9 @@ namespace SmileShop.API.Services.ProductGroup
                 var addProductGroup = new Models.ProductGroup.ProductGroup
                 {
                     Name = newProductGroup.Name.Trim(),
-                    CreatedBy = "2",
+                    CreatedBy = GetUserId(),
                     CreatedDate = Now(),
-                    UpdatedBy = "2",
+                    UpdatedBy = GetUserId(),
                     UpdatedDate = Now(),
                     isActive = true
                 };

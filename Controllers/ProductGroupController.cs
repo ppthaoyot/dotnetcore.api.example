@@ -6,7 +6,7 @@ using SmileShop.API.Services.ProductGroup;
 
 namespace SmileShop.API.Controllers
 {
-    // [Authorize]
+    [Authorize]
     [ApiController]
     [Route("api/productgroup")]
     public class ProductGroupController : ControllerBase

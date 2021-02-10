@@ -26,7 +26,6 @@ namespace SmileShop.API.Models.ProductGroup
 
         [Required]
         public bool isActive { get; set; }
-
         public List<Models.Product.Product> Products { get; set; }
     }
 }

@@ -1766,3 +1766,615 @@
 2021-02-10 01:50:19.959 +07:00 [INF] Start [Filter] Process.
 2021-02-10 01:50:20.991 +07:00 [INF] Start [Filter] Process.
 2021-02-10 01:50:23.504 +07:00 [INF] Start [Filter] Process.
+2021-02-10 08:47:56.758 +07:00 [INF] Starting web host
+2021-02-10 08:52:01.207 +07:00 [INF] Start [Filter] Process.
+2021-02-10 08:54:02.068 +07:00 [INF] Start [Filter] Process.
+2021-02-10 08:54:07.284 +07:00 [INF] Start [Filter] Process.
+2021-02-10 08:54:56.696 +07:00 [INF] Start [Filter] Process.
+2021-02-10 08:55:22.002 +07:00 [INF] Start [Filter] Process.
+2021-02-10 08:56:22.941 +07:00 [INF] Start [Filter] Process.
+2021-02-10 08:56:28.969 +07:00 [INF] Start [Add] Process
+2021-02-10 08:56:28.988 +07:00 [INF] Add New Product Group.
+2021-02-10 08:56:29.126 +07:00 [INF] [Add] Success.
+2021-02-10 08:56:29.173 +07:00 [INF] End [Add] process.
+2021-02-10 08:56:30.816 +07:00 [INF] Start [Filter] Process.
+2021-02-10 08:57:01.022 +07:00 [INF] Start [Filter] Process.
+2021-02-10 08:58:20.042 +07:00 [INF] Start [Filter] Process.
+2021-02-10 08:58:41.493 +07:00 [INF] Start [Filter] Process.
+2021-02-10 08:58:57.512 +07:00 [INF] Start [Filter] Process.
+2021-02-10 08:59:05.214 +07:00 [INF] Start [Filter] Process.
+2021-02-10 08:59:30.642 +07:00 [INF] Start [Filter] Process.
+2021-02-10 08:59:37.090 +07:00 [INF] Start [Filter] Process.
+2021-02-10 08:59:46.130 +07:00 [INF] Start [Add] Process
+2021-02-10 08:59:46.138 +07:00 [INF] Add New Product Group.
+2021-02-10 08:59:46.149 +07:00 [INF] [Add] Success.
+2021-02-10 08:59:46.155 +07:00 [INF] End [Add] process.
+2021-02-10 08:59:52.329 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:00:21.788 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:01:13.488 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:01:25.559 +07:00 [INF] Start [Add] Process
+2021-02-10 09:01:25.567 +07:00 [INF] Add New Product Group.
+2021-02-10 09:01:25.574 +07:00 [INF] [Add] Success.
+2021-02-10 09:01:25.580 +07:00 [INF] End [Add] process.
+2021-02-10 09:01:31.446 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:02:00.169 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:02:11.151 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:02:30.110 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:02:43.048 +07:00 [INF] Start [Add] Process
+2021-02-10 09:02:43.055 +07:00 [INF] Add New Product Group.
+2021-02-10 09:02:43.073 +07:00 [INF] [Add] Success.
+2021-02-10 09:02:43.080 +07:00 [INF] End [Add] process.
+2021-02-10 09:02:47.193 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:04:22.390 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:05:02.774 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:05:28.496 +07:00 [INF] Start [Add] Process
+2021-02-10 09:05:28.503 +07:00 [INF] Add New Product Group.
+2021-02-10 09:05:28.522 +07:00 [INF] [Add] Success.
+2021-02-10 09:05:28.529 +07:00 [INF] End [Add] process.
+2021-02-10 09:05:44.037 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:07:03.340 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:07:20.604 +07:00 [INF] Start [Add] Process
+2021-02-10 09:07:20.611 +07:00 [INF] Add New Product Group.
+2021-02-10 09:07:20.627 +07:00 [INF] [Add] Success.
+2021-02-10 09:07:20.636 +07:00 [INF] End [Add] process.
+2021-02-10 09:10:36.672 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:13:32.306 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:28:08.954 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:29:10.278 +07:00 [INF] Start [Add] Process
+2021-02-10 09:29:10.285 +07:00 [INF] Add New Product Group.
+2021-02-10 09:29:10.294 +07:00 [INF] [Add] Success.
+2021-02-10 09:29:10.298 +07:00 [INF] End [Add] process.
+2021-02-10 09:29:46.294 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:31:30.466 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:31:39.265 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:31:45.681 +07:00 [INF] Start [Add] Process
+2021-02-10 09:31:45.687 +07:00 [INF] Add New Product Group.
+2021-02-10 09:31:45.702 +07:00 [INF] [Add] Success.
+2021-02-10 09:31:45.708 +07:00 [INF] End [Add] process.
+2021-02-10 09:31:48.207 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:33:25.834 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:33:46.133 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:34:34.605 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:36:02.318 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:36:28.572 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:36:38.151 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:36:44.259 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:36:52.385 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:37:10.123 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:37:24.215 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:38:49.568 +07:00 [INF] Starting web host
+2021-02-10 09:38:56.592 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:39:03.585 +07:00 [INF] Start [Add] Process
+2021-02-10 09:39:03.635 +07:00 [INF] Add New Product Group.
+2021-02-10 09:39:03.784 +07:00 [ERR] Failed executing DbCommand (6ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ProductGroup] ([CreatedBy], [CreatedDate], [Name], [UpdatedBy], [UpdatedDate], [isActive])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [Id]
+FROM [ProductGroup]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2021-02-10 09:39:03.825 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'SmileShop.API.Data.AppDBContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'CreatedBy', table 'SmileShopDB.dbo.ProductGroup'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:71cda78f-4e10-45ae-9137-92411832d5fa
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'CreatedBy', table 'SmileShopDB.dbo.ProductGroup'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:71cda78f-4e10-45ae-9137-92411832d5fa
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at SmileShop.API.Services.ProductGroup.ProductGroupService.Add(AddProductGroupDto newProductGroup) in D:\Workshop\smileshop.dotnetcore.api\SmileShop.API\Services\ProductGroup\ProductGroupService.cs:line 108
+2021-02-10 09:39:03.958 +07:00 [ERR] An error occurred while updating the entries. See the inner exception for details.
+2021-02-10 09:42:21.258 +07:00 [INF] Starting web host
+2021-02-10 09:42:27.543 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:42:34.014 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:43:49.359 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:44:03.637 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:44:09.407 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:44:23.121 +07:00 [INF] Start [Add] Process
+2021-02-10 09:44:23.132 +07:00 [ERR] Duplicate name exists.
+2021-02-10 09:44:37.509 +07:00 [INF] Start [Add] Process
+2021-02-10 09:44:37.517 +07:00 [ERR] Duplicate name exists.
+2021-02-10 09:44:49.381 +07:00 [INF] Start [Add] Process
+2021-02-10 09:44:49.390 +07:00 [INF] Add New Product Group.
+2021-02-10 09:44:49.540 +07:00 [INF] [Add] Success.
+2021-02-10 09:44:49.588 +07:00 [INF] End [Add] process.
+2021-02-10 09:44:51.714 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:44:57.852 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:44:58.664 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:44:59.447 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:45:00.638 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:45:01.426 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:45:02.156 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:47:36.254 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:48:10.372 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:48:59.626 +07:00 [INF] Start [Filter] Process.
+2021-02-10 09:50:19.389 +07:00 [INF] Start [Filter] Process.
+2021-02-10 10:02:31.454 +07:00 [INF] Start [Filter] Process.
+2021-02-10 10:58:11.223 +07:00 [INF] Start [Filter] Process.
+2021-02-10 10:58:16.248 +07:00 [INF] Start [Filter] Process.
+2021-02-10 10:58:18.600 +07:00 [INF] Start [Filter] Process.
+2021-02-10 10:58:27.498 +07:00 [INF] Start [Filter] Process.
+2021-02-10 10:58:29.422 +07:00 [INF] Start [Filter] Process.
+2021-02-10 10:58:31.416 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:08:00.568 +07:00 [INF] Starting web host
+2021-02-10 11:17:56.232 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:18:09.286 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:18:38.441 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:18:45.374 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:19:35.403 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:24:25.953 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:24:42.840 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:25:05.848 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:26:08.792 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:26:52.298 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:27:09.554 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:27:15.982 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:27:20.087 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:27:23.524 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:27:25.928 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:27:30.154 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:27:34.187 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:27:48.342 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:27:55.985 +07:00 [INF] Start [Remove] Process
+2021-02-10 11:27:55.997 +07:00 [INF] Check Product Group ID.
+2021-02-10 11:27:55.999 +07:00 [INF] Remove [isActive = false] Product Group.
+2021-02-10 11:27:56.089 +07:00 [INF] [Remove] Success.
+2021-02-10 11:27:56.098 +07:00 [INF] End [Remove] process.
+2021-02-10 11:27:58.873 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:28:23.433 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:30:54.198 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:31:55.284 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:32:06.575 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:32:46.669 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:33:32.754 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:33:45.339 +07:00 [INF] Start [Remove] Process
+2021-02-10 11:33:45.343 +07:00 [INF] Check Product Group ID.
+2021-02-10 11:33:45.344 +07:00 [INF] Remove [isActive = false] Product Group.
+2021-02-10 11:33:45.351 +07:00 [INF] [Remove] Success.
+2021-02-10 11:33:45.352 +07:00 [INF] End [Remove] process.
+2021-02-10 11:33:49.488 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:34:02.275 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:37:50.350 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:38:22.130 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:38:29.131 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:38:37.378 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:38:43.640 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:38:52.674 +07:00 [INF] Start [Remove] Process
+2021-02-10 11:38:52.678 +07:00 [INF] Check Product Group ID.
+2021-02-10 11:38:52.679 +07:00 [INF] Remove [isActive = false] Product Group.
+2021-02-10 11:38:52.692 +07:00 [INF] [Remove] Success.
+2021-02-10 11:38:52.694 +07:00 [INF] End [Remove] process.
+2021-02-10 11:38:54.764 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:49:14.224 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:49:26.664 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:50:17.741 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:51:36.940 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:53:31.656 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:55:57.341 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:59:00.128 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:59:11.496 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:59:16.489 +07:00 [INF] Start [Filter] Process.
+2021-02-10 11:59:20.531 +07:00 [INF] Start [Filter] Process.
+2021-02-10 12:00:06.047 +07:00 [INF] Start [Filter] Process.
+2021-02-10 12:00:38.023 +07:00 [INF] Start [GetById] Process
+2021-02-10 12:00:38.077 +07:00 [ERR] Failed executing DbCommand (16ms) [Parameters=[@__productGroupId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedBy], [t].[CreatedDate], [t].[Name], [t].[UpdatedBy], [t].[UpdatedDate], [t].[isActive], [p0].[Id], [p0].[CreatedBy], [p0].[CreatedBysId], [p0].[CreatedDate], [p0].[Name], [p0].[Price], [p0].[ProductGroupId], [p0].[Stock], [p0].[UpdatedBy], [p0].[UpdatedDate], [p0].[isActive]
+FROM (
+    SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedDate], [p].[Name], [p].[UpdatedBy], [p].[UpdatedDate], [p].[isActive]
+    FROM [ProductGroup] AS [p]
+    WHERE [p].[Id] = @__productGroupId_0
+) AS [t]
+LEFT JOIN [Products] AS [p0] ON [t].[Id] = [p0].[ProductGroupId]
+ORDER BY [t].[Id], [p0].[Id]
+2021-02-10 12:00:38.107 +07:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmileShop.API.Data.AppDBContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedBysId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:370ecf23-7ca9-46e0-9ec8-abf942ce7f8a
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedBysId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at SmileShop.API.Services.ProductGroup.ProductGroupService.GetById(Int32 productGroupId) in D:\Workshop\smileshop.dotnetcore.api\SmileShop.API\Services\ProductGroup\ProductGroupService.cs:line 60
+ClientConnectionId:370ecf23-7ca9-46e0-9ec8-abf942ce7f8a
+Error Number:207,State:1,Class:16
+2021-02-10 12:00:38.119 +07:00 [ERR] Invalid column name 'CreatedBysId'.
+2021-02-10 12:01:22.978 +07:00 [INF] Starting web host
+2021-02-10 12:01:42.225 +07:00 [INF] Start [GetById] Process
+2021-02-10 12:01:43.063 +07:00 [ERR] Failed executing DbCommand (42ms) [Parameters=[@__productGroupId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedBy], [t].[CreatedDate], [t].[Name], [t].[UpdatedBy], [t].[UpdatedDate], [t].[isActive], [p0].[Id], [p0].[CreatedBy], [p0].[CreatedBysId], [p0].[CreatedDate], [p0].[Name], [p0].[Price], [p0].[ProductGroupId], [p0].[Stock], [p0].[UpdatedBy], [p0].[UpdatedDate], [p0].[isActive]
+FROM (
+    SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedDate], [p].[Name], [p].[UpdatedBy], [p].[UpdatedDate], [p].[isActive]
+    FROM [ProductGroup] AS [p]
+    WHERE [p].[Id] = @__productGroupId_0
+) AS [t]
+LEFT JOIN [Products] AS [p0] ON [t].[Id] = [p0].[ProductGroupId]
+ORDER BY [t].[Id], [p0].[Id]
+2021-02-10 12:01:43.107 +07:00 [ERR] An exception occurred while iterating over the results of a query for context type 'SmileShop.API.Data.AppDBContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedBysId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:8fe0e969-af65-46b4-aa1f-f5afb7a78fb7
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedBysId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:8fe0e969-af65-46b4-aa1f-f5afb7a78fb7
+Error Number:207,State:1,Class:16
+2021-02-10 12:01:43.224 +07:00 [ERR] Invalid column name 'CreatedBysId'.
+2021-02-10 12:02:00.581 +07:00 [INF] Starting web host
+2021-02-10 12:02:14.154 +07:00 [INF] Start [GetById] Process
+2021-02-10 12:02:15.040 +07:00 [INF] [GetById] Success
+2021-02-10 12:02:15.058 +07:00 [INF] End [GetById] Process.
+2021-02-10 12:03:03.579 +07:00 [INF] Start [Filter] Process.
+2021-02-10 12:03:23.208 +07:00 [INF] Start [Filter] Process.
+2021-02-10 12:04:44.376 +07:00 [INF] Start [Filter] Process.
+2021-02-10 12:04:49.457 +07:00 [INF] Start [GetById] Process
+2021-02-10 12:04:49.470 +07:00 [INF] [GetById] Success
+2021-02-10 12:04:49.472 +07:00 [INF] End [GetById] Process.
+2021-02-10 12:06:33.785 +07:00 [INF] Start [Filter] Process.
+2021-02-10 12:06:47.737 +07:00 [INF] Start [Filter] Process.
+2021-02-10 12:06:49.847 +07:00 [INF] Start [GetById] Process
+2021-02-10 12:06:49.858 +07:00 [INF] [GetById] Success
+2021-02-10 12:06:49.859 +07:00 [INF] End [GetById] Process.
+2021-02-10 12:06:51.890 +07:00 [INF] Start [GetById] Process
+2021-02-10 12:06:51.897 +07:00 [INF] [GetById] Success
+2021-02-10 12:06:51.899 +07:00 [INF] End [GetById] Process.
+2021-02-10 12:06:53.899 +07:00 [INF] Start [GetById] Process
+2021-02-10 12:06:53.905 +07:00 [INF] [GetById] Success
+2021-02-10 12:06:53.907 +07:00 [INF] End [GetById] Process.
+2021-02-10 12:07:01.063 +07:00 [INF] Start [GetById] Process
+2021-02-10 12:07:01.069 +07:00 [INF] [GetById] Success
+2021-02-10 12:07:01.071 +07:00 [INF] End [GetById] Process.
+2021-02-10 12:07:46.306 +07:00 [INF] Start [Filter] Process.
+2021-02-10 12:07:50.726 +07:00 [INF] Start [GetById] Process
+2021-02-10 12:07:50.733 +07:00 [INF] [GetById] Success
+2021-02-10 12:07:50.735 +07:00 [INF] End [GetById] Process.
+2021-02-10 12:08:12.120 +07:00 [INF] Start [Filter] Process.
+2021-02-10 12:08:13.831 +07:00 [INF] Start [GetById] Process
+2021-02-10 12:08:13.836 +07:00 [INF] [GetById] Success
+2021-02-10 12:08:13.838 +07:00 [INF] End [GetById] Process.
+2021-02-10 12:08:17.561 +07:00 [INF] Start [GetById] Process
+2021-02-10 12:08:17.566 +07:00 [INF] [GetById] Success
+2021-02-10 12:08:17.568 +07:00 [INF] End [GetById] Process.
+2021-02-10 12:08:19.908 +07:00 [INF] Start [GetById] Process
+2021-02-10 12:08:19.912 +07:00 [INF] [GetById] Success
+2021-02-10 12:08:19.914 +07:00 [INF] End [GetById] Process.
+2021-02-10 12:08:27.393 +07:00 [INF] Start [GetById] Process
+2021-02-10 12:08:27.401 +07:00 [INF] [GetById] Success
+2021-02-10 12:08:27.402 +07:00 [INF] End [GetById] Process.
+2021-02-10 12:08:31.586 +07:00 [INF] Start [GetById] Process
+2021-02-10 12:08:31.592 +07:00 [INF] [GetById] Success
+2021-02-10 12:08:31.594 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:27:20.694 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:27:20.738 +07:00 [INF] [GetById] Success
+2021-02-10 13:27:20.739 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:29:44.300 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:29:49.438 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:29:52.830 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:29:52.835 +07:00 [INF] [GetById] Success
+2021-02-10 13:29:52.837 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:29:55.213 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:29:55.216 +07:00 [INF] [GetById] Success
+2021-02-10 13:29:55.217 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:30:03.035 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:30:03.041 +07:00 [INF] [GetById] Success
+2021-02-10 13:30:03.042 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:30:30.277 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:30:30.283 +07:00 [INF] [GetById] Success
+2021-02-10 13:30:30.284 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:30:58.247 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:31:11.435 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:31:13.162 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:31:13.305 +07:00 [INF] [GetById] Success
+2021-02-10 13:31:13.306 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:32:03.916 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:32:05.452 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:32:05.457 +07:00 [INF] [GetById] Success
+2021-02-10 13:32:05.458 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:32:14.921 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:32:14.925 +07:00 [INF] [GetById] Success
+2021-02-10 13:32:14.926 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:32:17.026 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:32:17.704 +07:00 [INF] [GetById] Success
+2021-02-10 13:32:17.705 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:32:20.482 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:32:20.486 +07:00 [INF] [GetById] Success
+2021-02-10 13:32:20.488 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:32:23.272 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:32:23.275 +07:00 [INF] [GetById] Success
+2021-02-10 13:32:23.276 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:32:25.973 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:32:25.976 +07:00 [INF] [GetById] Success
+2021-02-10 13:32:25.977 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:32:31.150 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:32:31.153 +07:00 [INF] [GetById] Success
+2021-02-10 13:32:31.154 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:32:44.657 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:32:44.660 +07:00 [INF] [GetById] Success
+2021-02-10 13:32:44.660 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:32:46.867 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:32:46.870 +07:00 [INF] [GetById] Success
+2021-02-10 13:32:46.871 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:33:26.456 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:33:33.841 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:33:33.847 +07:00 [INF] [GetById] Success
+2021-02-10 13:33:33.848 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:33:47.306 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:33:47.309 +07:00 [INF] [GetById] Success
+2021-02-10 13:33:47.310 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:33:53.016 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:33:53.018 +07:00 [INF] [GetById] Success
+2021-02-10 13:33:53.019 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:34:38.308 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:34:38.313 +07:00 [INF] [GetById] Success
+2021-02-10 13:34:38.314 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:36:02.430 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:37:17.561 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:39:05.148 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:39:07.071 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:39:07.078 +07:00 [INF] [GetById] Success
+2021-02-10 13:39:07.079 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:39:12.171 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:39:12.173 +07:00 [INF] [GetById] Success
+2021-02-10 13:39:12.174 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:39:18.406 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:39:18.409 +07:00 [INF] [GetById] Success
+2021-02-10 13:39:18.411 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:41:04.765 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:41:15.698 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:41:15.703 +07:00 [INF] [GetById] Success
+2021-02-10 13:41:15.704 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:41:19.446 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:41:19.449 +07:00 [INF] [GetById] Success
+2021-02-10 13:41:19.450 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:41:21.581 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:41:21.583 +07:00 [INF] [GetById] Success
+2021-02-10 13:41:21.584 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:41:23.434 +07:00 [INF] Start [GetById] Process
+2021-02-10 13:41:23.437 +07:00 [INF] [GetById] Success
+2021-02-10 13:41:23.438 +07:00 [INF] End [GetById] Process.
+2021-02-10 13:41:48.831 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:41:53.415 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:42:32.832 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:42:56.883 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:43:37.984 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:43:59.175 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:44:04.070 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:44:48.603 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:44:57.127 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:45:02.763 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:45:51.564 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:46:25.839 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:46:44.182 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:46:56.775 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:47:09.417 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:47:30.580 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:48:48.369 +07:00 [INF] Start [Remove] Process
+2021-02-10 13:48:48.381 +07:00 [INF] Check Product Group ID.
+2021-02-10 13:48:48.382 +07:00 [INF] Remove [isActive = false] Product Group.
+2021-02-10 13:48:48.490 +07:00 [INF] [Remove] Success.
+2021-02-10 13:48:48.491 +07:00 [INF] End [Remove] process.
+2021-02-10 13:48:49.862 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:49:51.485 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:50:20.571 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:50:44.772 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:51:10.889 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:51:39.382 +07:00 [INF] Start [Filter] Process.
+2021-02-10 13:52:20.433 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:11:13.150 +07:00 [INF] Starting web host
+2021-02-10 14:11:21.639 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:11:35.426 +07:00 [INF] Start [GetById] Process
+2021-02-10 14:11:35.491 +07:00 [INF] [GetById] Success
+2021-02-10 14:11:35.500 +07:00 [INF] End [GetById] Process.
+2021-02-10 14:11:38.125 +07:00 [INF] Start [GetById] Process
+2021-02-10 14:11:38.132 +07:00 [INF] [GetById] Success
+2021-02-10 14:11:38.133 +07:00 [INF] End [GetById] Process.
+2021-02-10 14:12:02.496 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:13:12.881 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:13:19.834 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:13:25.942 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:15:58.721 +07:00 [INF] Start [Remove] Process
+2021-02-10 14:15:58.732 +07:00 [INF] Check Product Group ID.
+2021-02-10 14:15:58.733 +07:00 [INF] Remove [isActive = false] Product Group.
+2021-02-10 14:15:58.827 +07:00 [INF] [Remove] Success.
+2021-02-10 14:15:58.828 +07:00 [INF] End [Remove] process.
+2021-02-10 14:16:02.006 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:17:37.358 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:17:56.236 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:18:00.705 +07:00 [INF] Start [Remove] Process
+2021-02-10 14:18:00.710 +07:00 [INF] Check Product Group ID.
+2021-02-10 14:18:00.711 +07:00 [INF] Remove [isActive = false] Product Group.
+2021-02-10 14:18:00.717 +07:00 [INF] [Remove] Success.
+2021-02-10 14:18:00.719 +07:00 [INF] End [Remove] process.
+2021-02-10 14:19:14.883 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:19:21.707 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:19:45.777 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:19:49.506 +07:00 [INF] Start [Remove] Process
+2021-02-10 14:19:49.509 +07:00 [INF] Check Product Group ID.
+2021-02-10 14:19:49.511 +07:00 [INF] Remove [isActive = false] Product Group.
+2021-02-10 14:19:49.527 +07:00 [INF] [Remove] Success.
+2021-02-10 14:19:49.528 +07:00 [INF] End [Remove] process.
+2021-02-10 14:19:50.701 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:20:09.246 +07:00 [INF] Start [Remove] Process
+2021-02-10 14:20:09.250 +07:00 [INF] Check Product Group ID.
+2021-02-10 14:20:09.251 +07:00 [INF] Remove [isActive = false] Product Group.
+2021-02-10 14:20:09.264 +07:00 [INF] [Remove] Success.
+2021-02-10 14:20:09.266 +07:00 [INF] End [Remove] process.
+2021-02-10 14:20:10.854 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:20:38.259 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:20:48.310 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:21:02.515 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:21:14.249 +07:00 [INF] Start [Remove] Process
+2021-02-10 14:21:14.252 +07:00 [INF] Check Product Group ID.
+2021-02-10 14:21:14.253 +07:00 [INF] Remove [isActive = false] Product Group.
+2021-02-10 14:21:14.260 +07:00 [INF] [Remove] Success.
+2021-02-10 14:21:14.262 +07:00 [INF] End [Remove] process.
+2021-02-10 14:21:15.528 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:21:25.482 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:21:44.973 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:21:53.759 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:22:16.452 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:22:25.211 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:22:31.339 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:22:34.621 +07:00 [INF] Start [Remove] Process
+2021-02-10 14:22:34.623 +07:00 [INF] Check Product Group ID.
+2021-02-10 14:22:34.624 +07:00 [INF] Remove [isActive = false] Product Group.
+2021-02-10 14:22:34.633 +07:00 [INF] [Remove] Success.
+2021-02-10 14:22:34.634 +07:00 [INF] End [Remove] process.
+2021-02-10 14:22:54.803 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:23:22.191 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:23:27.846 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:23:30.177 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:23:32.557 +07:00 [INF] Start [Remove] Process
+2021-02-10 14:23:32.560 +07:00 [INF] Check Product Group ID.
+2021-02-10 14:23:32.560 +07:00 [INF] Remove [isActive = false] Product Group.
+2021-02-10 14:23:32.572 +07:00 [INF] [Remove] Success.
+2021-02-10 14:23:32.574 +07:00 [INF] End [Remove] process.
+2021-02-10 14:23:33.635 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:24:08.521 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:24:40.675 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:25:17.843 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:25:28.696 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:26:04.660 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:26:10.670 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:26:18.221 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:26:27.833 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:27:05.470 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:27:24.782 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:27:36.618 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:28:28.736 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:28:36.780 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:34:12.050 +07:00 [INF] Starting web host
+2021-02-10 14:36:06.528 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:36:29.379 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:36:34.313 +07:00 [INF] Start [Remove] Process
+2021-02-10 14:36:34.340 +07:00 [INF] Check Product Group ID.
+2021-02-10 14:36:34.342 +07:00 [INF] Remove [isActive = false] Product Group.
+2021-02-10 14:36:34.516 +07:00 [INF] [Remove] Success.
+2021-02-10 14:36:34.531 +07:00 [INF] End [Remove] process.
+2021-02-10 14:36:36.125 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:38:06.063 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:38:31.606 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:38:45.712 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:39:22.628 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:40:10.874 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:40:34.089 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:40:59.419 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:41:11.856 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:41:17.851 +07:00 [INF] Start [Remove] Process
+2021-02-10 14:41:17.863 +07:00 [INF] Check Product Group ID.
+2021-02-10 14:41:17.866 +07:00 [INF] Remove [isActive = false] Product Group.
+2021-02-10 14:41:17.893 +07:00 [INF] [Remove] Success.
+2021-02-10 14:41:17.898 +07:00 [INF] End [Remove] process.
+2021-02-10 14:43:51.280 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:43:55.363 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:45:12.989 +07:00 [INF] Start [GetById] Process
+2021-02-10 14:45:13.159 +07:00 [INF] [GetById] Success
+2021-02-10 14:45:13.163 +07:00 [INF] End [GetById] Process.
+2021-02-10 14:45:16.642 +07:00 [INF] Start [GetById] Process
+2021-02-10 14:45:16.677 +07:00 [INF] [GetById] Success
+2021-02-10 14:45:16.679 +07:00 [INF] End [GetById] Process.
+2021-02-10 14:45:57.464 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:46:07.455 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:46:39.840 +07:00 [INF] Start [GetById] Process
+2021-02-10 14:46:39.849 +07:00 [INF] [GetById] Success
+2021-02-10 14:46:39.851 +07:00 [INF] End [GetById] Process.
+2021-02-10 14:46:42.716 +07:00 [INF] Start [GetById] Process
+2021-02-10 14:46:42.721 +07:00 [INF] [GetById] Success
+2021-02-10 14:46:42.722 +07:00 [INF] End [GetById] Process.
+2021-02-10 14:49:23.865 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:50:26.029 +07:00 [INF] Start [Filter] Process.
+2021-02-10 14:53:02.129 +07:00 [INF] Start [GetById] Process
+2021-02-10 14:53:02.141 +07:00 [INF] [GetById] Success
+2021-02-10 14:53:02.150 +07:00 [INF] End [GetById] Process.
+2021-02-10 14:54:47.938 +07:00 [INF] Start [Filter] Process.
+2021-02-10 15:32:17.467 +07:00 [INF] Start [Filter] Process.
