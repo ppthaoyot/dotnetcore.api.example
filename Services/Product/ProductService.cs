@@ -24,7 +24,6 @@ namespace SmileShop.API.Services.Product
             _log = log;
         }
         #endregion
-
         public async Task<ServiceResponse<List<GetProductDto>>> GetAll()
         {
             try
@@ -44,7 +43,6 @@ namespace SmileShop.API.Services.Product
                 return ResponseResult.Failure<List<GetProductDto>>(ex.Message);
             }
         }
-
         public async Task<ServiceResponse<GetProductDto>> GetById(int productId)
         {
             try
@@ -71,7 +69,6 @@ namespace SmileShop.API.Services.Product
                 return ResponseResult.Failure<GetProductDto>(ex.Message);
             }
         }
-
         public async Task<ServiceResponse<GetProductDto>> Add(AddProductDto newProduct)
         {
             try
@@ -127,7 +124,6 @@ namespace SmileShop.API.Services.Product
                 return ResponseResult.Failure<GetProductDto>(ex.Message);
             }
         }
-
         public async Task<ServiceResponse<GetProductDto>> Update(UpdateProductDto updateProduct)
         {
             try

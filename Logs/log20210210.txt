@@ -2378,3 +2378,5 @@ Error Number:207,State:1,Class:16
 2021-02-10 14:53:02.150 +07:00 [INF] End [GetById] Process.
 2021-02-10 14:54:47.938 +07:00 [INF] Start [Filter] Process.
 2021-02-10 15:32:17.467 +07:00 [INF] Start [Filter] Process.
+2021-02-10 15:53:10.248 +07:00 [INF] Starting web host
+2021-02-10 15:54:01.850 +07:00 [INF] Start [Filter] Process.

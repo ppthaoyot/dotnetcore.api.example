@@ -51,7 +51,6 @@ namespace SmileShop.API.Services.ProductGroup
                 return ResponseResult.Failure<List<GetProductGroupDto>>(ex.Message);
             }
         }
-
         public async Task<ServiceResponse<GetProductGroupDto>> GetById(int productGroupId)
         {
             try
@@ -169,7 +168,6 @@ namespace SmileShop.API.Services.ProductGroup
                 return ResponseResult.Failure<GetProductGroupDto>(ex.Message);
             }
         }
-
         public async Task<ServiceResponse<GetProductGroupDto>> Remove(int productGroupId)
         {
             try
@@ -203,13 +201,12 @@ namespace SmileShop.API.Services.ProductGroup
                 return ResponseResult.Failure<GetProductGroupDto>(ex.Message);
             }
         }
-
         public async Task<ServiceResponseWithPagination<List<GetProductGroupDto>>> Filter(FilterProductGroup filter)
         {
             try
             {
                 _log.LogInformation("Start [Filter] Process.");
-                var queryable = _dBContext.ProductGroups.AsQueryable();
+                var queryable = _dBContext.ProductGroups.Include(x => x.Products).AsQueryable();
 
                 //Filter
                 if (!string.IsNullOrWhiteSpace(filter.Name))
