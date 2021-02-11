@@ -121,22 +121,22 @@ namespace SmileShop.API.Services.ProductGroup
                 return ResponseResult.Failure<GetProductGroupDto>(ex.Message);
             }
         }
-        public async Task<ServiceResponse<GetProductGroupDto>> Update(UpdateProductGroupDto updateProductGroup)
+        public async Task<ServiceResponse<GetProductGroupDto>> Update(int productGroupId, UpdateProductGroupDto updateProductGroup)
         {
             try
             {
                 _log.LogInformation("Start [Update] Process");
-                var productGroup = await _dBContext.ProductGroups.FirstOrDefaultAsync(x => x.Id == updateProductGroup.Id);
+                var productGroup = await _dBContext.ProductGroups.FirstOrDefaultAsync(x => x.Id == productGroupId);
 
                 _log.LogInformation("Check Product Group ID.");
                 if (productGroup is null)
                 {
-                    _log.LogInformation(String.Format("Product Group ID {0} not exists.", updateProductGroup.Id));
+                    _log.LogInformation(String.Format("Product Group ID {0} not exists.", productGroupId));
                     return ResponseResult.Failure<GetProductGroupDto>("Not Found.");
                 }
 
                 _log.LogInformation("Check Product Group Name.");
-                var duplicateName = await _dBContext.ProductGroups.FirstOrDefaultAsync(x => x.Name == updateProductGroup.Name && x.Id != updateProductGroup.Id);
+                var duplicateName = await _dBContext.ProductGroups.FirstOrDefaultAsync(x => x.Name == updateProductGroup.Name && x.Id != productGroupId);
                 if (!(duplicateName is null))
                 {
                     var msg = $"Duplicate name exists.";
@@ -147,6 +147,7 @@ namespace SmileShop.API.Services.ProductGroup
                 _log.LogInformation("Update Product Group.");
 
                 productGroup.Name = updateProductGroup.Name.Trim();
+                productGroup.isActive = updateProductGroup.isActive;
                 productGroup.UpdatedBy = GetUserId();
                 productGroup.UpdatedDate = Now();
 
@@ -206,7 +207,7 @@ namespace SmileShop.API.Services.ProductGroup
             try
             {
                 _log.LogInformation("Start [Filter] Process.");
-                var queryable = _dBContext.ProductGroups.Include(x => x.Products).AsQueryable();
+                var queryable = _dBContext.ProductGroups.AsQueryable();
 
                 //Filter
                 if (!string.IsNullOrWhiteSpace(filter.Name))

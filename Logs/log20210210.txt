@@ -2380,3 +2380,75 @@ Error Number:207,State:1,Class:16
 2021-02-10 15:32:17.467 +07:00 [INF] Start [Filter] Process.
 2021-02-10 15:53:10.248 +07:00 [INF] Starting web host
 2021-02-10 15:54:01.850 +07:00 [INF] Start [Filter] Process.
+2021-02-10 15:55:11.829 +07:00 [INF] Starting web host
+2021-02-10 15:56:04.785 +07:00 [INF] Start [Filter] Process.
+2021-02-10 15:57:18.924 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:00:02.843 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:00:27.534 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:01:51.022 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:02:57.169 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:03:20.350 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:17:15.828 +07:00 [INF] Start [GetById] Process
+2021-02-10 16:17:15.892 +07:00 [INF] [GetById] Success
+2021-02-10 16:17:15.902 +07:00 [INF] End [GetById] Process.
+2021-02-10 16:18:18.637 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:20:00.591 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:30:12.116 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:30:24.696 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:32:29.267 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:32:36.038 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:33:02.353 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:34:18.331 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:34:27.056 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:34:33.253 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:34:38.120 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:37:56.185 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:38:41.901 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:38:59.321 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:39:03.909 +07:00 [INF] Start [GetById] Process
+2021-02-10 16:39:03.913 +07:00 [INF] [GetById] Success
+2021-02-10 16:39:03.913 +07:00 [INF] End [GetById] Process.
+2021-02-10 16:39:28.843 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:39:34.677 +07:00 [INF] Start [GetById] Process
+2021-02-10 16:39:34.681 +07:00 [INF] [GetById] Success
+2021-02-10 16:39:34.683 +07:00 [INF] End [GetById] Process.
+2021-02-10 16:39:41.520 +07:00 [INF] Start [GetById] Process
+2021-02-10 16:39:41.526 +07:00 [INF] [GetById] Success
+2021-02-10 16:39:41.527 +07:00 [INF] End [GetById] Process.
+2021-02-10 16:40:24.103 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:41:47.606 +07:00 [INF] Start [Filter] Process.
+2021-02-10 16:41:58.658 +07:00 [INF] Start [GetById] Process
+2021-02-10 16:41:58.663 +07:00 [INF] [GetById] Success
+2021-02-10 16:41:58.664 +07:00 [INF] End [GetById] Process.
+2021-02-10 17:00:33.047 +07:00 [INF] Start [Filter] Process.
+2021-02-10 17:00:46.270 +07:00 [INF] Start [Add] Process
+2021-02-10 17:00:46.293 +07:00 [INF] Add New Product Group.
+2021-02-10 17:00:46.588 +07:00 [INF] [Add] Success.
+2021-02-10 17:00:46.603 +07:00 [INF] End [Add] process.
+2021-02-10 17:00:47.895 +07:00 [INF] Start [Filter] Process.
+2021-02-10 17:02:14.091 +07:00 [INF] Start [Filter] Process.
+2021-02-10 17:02:16.288 +07:00 [INF] Start [Filter] Process.
+2021-02-10 17:02:18.250 +07:00 [INF] Start [Filter] Process.
+2021-02-10 17:04:23.652 +07:00 [INF] Start [Remove] Process
+2021-02-10 17:04:23.672 +07:00 [INF] Check Product Group ID.
+2021-02-10 17:04:23.674 +07:00 [INF] Remove [isActive = false] Product Group.
+2021-02-10 17:04:23.706 +07:00 [INF] [Remove] Success.
+2021-02-10 17:04:23.708 +07:00 [INF] End [Remove] process.
+2021-02-10 17:04:25.393 +07:00 [INF] Start [Filter] Process.
+2021-02-10 17:05:20.025 +07:00 [INF] Start [GetById] Process
+2021-02-10 17:05:20.031 +07:00 [INF] [GetById] Success
+2021-02-10 17:05:20.032 +07:00 [INF] End [GetById] Process.
+2021-02-10 17:05:32.009 +07:00 [INF] Start [GetById] Process
+2021-02-10 17:05:32.013 +07:00 [INF] [GetById] Success
+2021-02-10 17:05:32.014 +07:00 [INF] End [GetById] Process.
+2021-02-10 17:05:42.298 +07:00 [INF] Start [GetById] Process
+2021-02-10 17:05:42.301 +07:00 [INF] [GetById] Success
+2021-02-10 17:05:42.303 +07:00 [INF] End [GetById] Process.
+2021-02-10 17:05:47.519 +07:00 [INF] Start [GetById] Process
+2021-02-10 17:05:47.527 +07:00 [INF] [GetById] Success
+2021-02-10 17:05:47.528 +07:00 [INF] End [GetById] Process.
+2021-02-10 17:06:36.026 +07:00 [INF] Start [Filter] Process.
+2021-02-10 17:06:38.350 +07:00 [INF] Start [Filter] Process.
+2021-02-10 17:06:41.511 +07:00 [INF] Start [GetById] Process
+2021-02-10 17:06:41.516 +07:00 [INF] [GetById] Success
+2021-02-10 17:06:41.518 +07:00 [INF] End [GetById] Process.
