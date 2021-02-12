@@ -26,6 +26,12 @@ namespace SmileShop.API.Controllers
             return Ok(await _pgService.GetAll());
         }
 
+        [HttpGet("filter")]
+        public async Task<IActionResult> Filter([FromQuery] FilterProductGroup filter)
+        {
+            return Ok(await _pgService.Filter(filter));
+        }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -38,10 +44,10 @@ namespace SmileShop.API.Controllers
             return Ok(await _pgService.Add(productGroup));
         }
 
-        [HttpPut()]
-        public async Task<IActionResult> Update(UpdateProductGroupDto productGroup)
+        [HttpPut("{productGroupId}")]
+        public async Task<IActionResult> Update(int productGroupId, UpdateProductGroupDto productGroup)
         {
-            return Ok(await _pgService.Update(productGroup));
+            return Ok(await _pgService.Update(productGroupId, productGroup));
         }
 
         [HttpDelete("{id}")]

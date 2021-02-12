@@ -27,9 +27,9 @@ namespace SmileShop.API.Models.Product
 
         public DateTime UpdatedDate { get; set; }
 
+
         [Required]
         public bool isActive { get; set; }
-
         public int ProductGroupId { get; set; }
         public Models.ProductGroup.ProductGroup ProductGroup { get; set; }
     }
