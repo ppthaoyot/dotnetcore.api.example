@@ -1394,3 +1394,8 @@
 2021-02-12 15:01:44.970 +07:00 [INF] Start [Filter] Process.
 2021-02-12 15:02:00.870 +07:00 [INF] Start [Filter] Process.
 2021-02-12 15:02:30.128 +07:00 [INF] Start [Filter] Process.
+2021-02-12 15:32:19.119 +07:00 [INF] Starting web host
+2021-02-12 15:34:57.144 +07:00 [INF] Starting web host
+2021-02-12 15:36:41.875 +07:00 [INF] Start [GetAll] Process.
+2021-02-12 15:36:41.942 +07:00 [INF] [GetAll] Success.
+2021-02-12 15:36:41.964 +07:00 [INF] End [GetAll] Process.
