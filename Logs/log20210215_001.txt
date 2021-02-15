@@ -1,0 +1,168 @@
+2021-02-15 09:15:29.948 +07:00 [INF] Starting web host
+2021-02-15 09:15:31.558 +07:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2021-02-15 09:15:31.645 +07:00 [FTL] Host terminated unexpectedly
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at SmileShop.API.Program.Main(String[] args) in D:\Workshop\smileshop.dotnetcore.api\SmileShop.API\Program.cs:line 28
+2021-02-15 09:16:06.575 +07:00 [INF] Starting web host
+2021-02-15 09:16:07.725 +07:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2021-02-15 09:16:07.779 +07:00 [FTL] Host terminated unexpectedly
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at SmileShop.API.Program.Main(String[] args) in D:\Workshop\smileshop.dotnetcore.api\SmileShop.API\Program.cs:line 28
+2021-02-15 09:16:20.727 +07:00 [INF] Starting web host
+2021-02-15 09:17:15.130 +07:00 [INF] Start [Filter] Process.
+2021-02-15 09:18:10.651 +07:00 [INF] Starting web host
+2021-02-15 09:20:23.156 +07:00 [INF] Start [GetAll] Process.
+2021-02-15 09:20:24.770 +07:00 [INF] [GetAll] Success.
+2021-02-15 09:20:24.788 +07:00 [INF] End [GetAll] Process.
+2021-02-15 09:56:29.324 +07:00 [INF] Start [Filter] Process.
+2021-02-15 09:56:35.274 +07:00 [INF] Start [Filter] Process.
+2021-02-15 09:56:38.745 +07:00 [INF] Start [Filter] Process.
+2021-02-15 09:59:01.146 +07:00 [INF] Start [Remove] Process
+2021-02-15 09:59:01.180 +07:00 [INF] Check Product ID.
+2021-02-15 09:59:01.199 +07:00 [INF] Remove [isActive = false] Product.
+2021-02-15 09:59:01.400 +07:00 [INF] [Remove] Success.
+2021-02-15 09:59:01.409 +07:00 [INF] End [Remove] process.
+2021-02-15 09:59:01.556 +07:00 [INF] Start [Filter] Process.
+2021-02-15 09:59:04.470 +07:00 [INF] Start [GetById] Process
+2021-02-15 09:59:04.535 +07:00 [INF] [GetById] Success
+2021-02-15 09:59:04.537 +07:00 [INF] End [GetById] Process.
+2021-02-15 10:00:22.143 +07:00 [INF] Starting web host
+2021-02-15 10:00:27.679 +07:00 [INF] Start [GetById] Process
+2021-02-15 10:00:29.289 +07:00 [INF] [GetById] Success
+2021-02-15 10:00:29.319 +07:00 [INF] End [GetById] Process.
+2021-02-15 10:00:34.796 +07:00 [INF] Start [GetById] Process
+2021-02-15 10:00:34.878 +07:00 [INF] [GetById] Success
+2021-02-15 10:00:34.880 +07:00 [INF] End [GetById] Process.
+2021-02-15 10:06:06.469 +07:00 [INF] Starting web host
+2021-02-15 10:06:21.190 +07:00 [INF] Start [Filter] Process.
+2021-02-15 10:06:43.520 +07:00 [INF] Start [Remove] Process
+2021-02-15 10:06:43.618 +07:00 [INF] Check Product ID.
+2021-02-15 10:06:43.620 +07:00 [INF] Remove [isActive = false] Product.
+2021-02-15 10:06:43.831 +07:00 [INF] [Remove] Success.
+2021-02-15 10:06:43.852 +07:00 [INF] End [Remove] process.
+2021-02-15 10:06:44.033 +07:00 [INF] Start [Filter] Process.
+2021-02-15 10:06:48.763 +07:00 [INF] Start [GetById] Process
+2021-02-15 10:06:48.819 +07:00 [INF] [GetById] Success
+2021-02-15 10:06:48.822 +07:00 [INF] End [GetById] Process.
+2021-02-15 10:06:55.341 +07:00 [INF] Start [Update] Process
+2021-02-15 10:06:55.352 +07:00 [INF] Check Product ID.
+2021-02-15 10:06:55.353 +07:00 [INF] Check Product Name.
+2021-02-15 10:06:55.377 +07:00 [INF] Check ProductGroup.
+2021-02-15 10:06:55.402 +07:00 [ERR] Product Group not exists.
+2021-02-15 10:07:07.510 +07:00 [INF] Start [GetById] Process
+2021-02-15 10:07:07.538 +07:00 [INF] [GetById] Success
+2021-02-15 10:07:07.547 +07:00 [INF] End [GetById] Process.
+2021-02-15 10:07:19.105 +07:00 [INF] Start [Filter] Process.
+2021-02-15 10:07:30.035 +07:00 [INF] Start [GetById] Process
+2021-02-15 10:07:30.057 +07:00 [INF] [GetById] Success
+2021-02-15 10:07:30.067 +07:00 [INF] End [GetById] Process.
+2021-02-15 10:07:33.612 +07:00 [INF] Start [Update] Process
+2021-02-15 10:07:33.622 +07:00 [INF] Check Product ID.
+2021-02-15 10:07:33.623 +07:00 [INF] Check Product Name.
+2021-02-15 10:07:33.630 +07:00 [INF] Check ProductGroup.
+2021-02-15 10:07:33.641 +07:00 [ERR] Product Group not exists.
+2021-02-15 10:07:36.019 +07:00 [INF] Start [GetById] Process
+2021-02-15 10:07:36.043 +07:00 [INF] [GetById] Success
+2021-02-15 10:07:36.051 +07:00 [INF] End [GetById] Process.
+2021-02-15 10:07:41.109 +07:00 [INF] Start [Filter] Process.
+2021-02-15 10:08:10.815 +07:00 [INF] Start [Filter] Process.
+2021-02-15 10:08:24.885 +07:00 [INF] Start [Filter] Process.
+2021-02-15 10:08:29.430 +07:00 [INF] Start [Filter] Process.
+2021-02-15 10:08:38.994 +07:00 [INF] Start [Filter] Process.
+2021-02-15 10:08:45.310 +07:00 [INF] Start [Filter] Process.
+2021-02-15 10:08:57.276 +07:00 [INF] Start [Filter] Process.
+2021-02-15 10:09:00.165 +07:00 [INF] Start [GetById] Process
+2021-02-15 10:09:00.179 +07:00 [INF] [GetById] Success
+2021-02-15 10:09:00.181 +07:00 [INF] End [GetById] Process.
+2021-02-15 10:09:02.703 +07:00 [INF] Start [Update] Process
+2021-02-15 10:09:02.709 +07:00 [INF] Check Product ID.
+2021-02-15 10:09:02.711 +07:00 [INF] Check Product Name.
+2021-02-15 10:09:02.717 +07:00 [INF] Check ProductGroup.
+2021-02-15 10:09:02.723 +07:00 [ERR] Product Group not exists.
+2021-02-15 10:09:04.717 +07:00 [INF] Start [GetById] Process
+2021-02-15 10:09:04.723 +07:00 [INF] [GetById] Success
+2021-02-15 10:09:04.724 +07:00 [INF] End [GetById] Process.

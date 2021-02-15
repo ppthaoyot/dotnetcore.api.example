@@ -3,13 +3,8 @@ using SmileShop.API.DTOs;
 using SmileShop.API.DTOs.Product;
 using SmileShop.API.DTOs.ProductGroup;
 using SmileShop.API.Models;
-using SmileShop.API.Models.Product;
-using SmileShop.API.Models.ProductGroup;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using SmileShop.API.Models.ProductModel;
+using SmileShop.API.Models.ProductGroupModel;
 
 namespace SmileShop.API
 {

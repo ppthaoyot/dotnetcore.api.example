@@ -2,9 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using SmileShop.API.Models.ProductModel;
 
-namespace SmileShop.API.Models.ProductGroup
+namespace SmileShop.API.Models.ProductGroupModel
 {
+
     [Table("ProductGroup")]
     public class ProductGroup
     {
@@ -15,17 +17,17 @@ namespace SmileShop.API.Models.ProductGroup
         public string Name { get; set; }
 
         [Required]
-        public string CreatedBy { get; set; }
+        public Guid CreatedById { get; set; }
 
         [Required]
         public DateTime CreatedDate { get; set; }
 
-        public string UpdatedBy { get; set; }
+        public Guid UpdatedById { get; set; }
 
         public DateTime UpdatedDate { get; set; }
 
         [Required]
         public bool isActive { get; set; }
-        public List<Models.Product.Product> Products { get; set; }
+        public List<Product> Products { get; set; }
     }
 }

@@ -1,8 +1,11 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using SmileShop.API.Models.ProductGroupModel;
 
-namespace SmileShop.API.Models.Product
+namespace SmileShop.API.Models.ProductModel
 {
+    [Table("Product")]
     public class Product
     {
         [Key]
@@ -18,19 +21,21 @@ namespace SmileShop.API.Models.Product
         public int Stock { get; set; }
 
         [Required]
-        public string CreatedBy { get; set; }
+        public Guid CreatedById { get; set; }
 
         [Required]
         public DateTime CreatedDate { get; set; }
+        [Required]
 
-        public string UpdatedBy { get; set; }
+        public Guid UpdatedById { get; set; }
+        [Required]
 
         public DateTime UpdatedDate { get; set; }
 
-
         [Required]
         public bool isActive { get; set; }
+        [Required]
         public int ProductGroupId { get; set; }
-        public Models.ProductGroup.ProductGroup ProductGroup { get; set; }
+        public ProductGroup ProductGroup { get; set; }
     }
 }

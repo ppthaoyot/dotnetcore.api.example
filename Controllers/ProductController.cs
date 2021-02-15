@@ -31,16 +31,23 @@ namespace SmileShop.API.Controllers
             return Ok(await _productService.GetById(id));
         }
 
+        [HttpGet("filter")]
+        public async Task<IActionResult> Filter([FromQuery] FilterProduct filter)
+        {
+            return Ok(await _productService.Filter(filter));
+        }
+
+
         [HttpPost()]
         public async Task<IActionResult> Add(AddProductDto product)
         {
             return Ok(await _productService.Add(product));
         }
 
-        [HttpPut()]
-        public async Task<IActionResult> Update(UpdateProductDto product)
+        [HttpPut("{productId}")]
+        public async Task<IActionResult> Update(int productId, UpdateProductDto product)
         {
-            return Ok(await _productService.Update(product));
+            return Ok(await _productService.Update(productId, product));
         }
 
         [HttpDelete("{id}")]

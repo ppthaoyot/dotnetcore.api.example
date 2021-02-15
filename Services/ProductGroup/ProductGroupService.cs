@@ -11,6 +11,7 @@ using SmileShop.API.DTOs.ProductGroup;
 using SmileShop.API.Models;
 using System.Linq.Dynamic.Core;
 using SmileShop.API.Helpers;
+using SmileShop.API.Models.ProductGroupModel;
 
 namespace SmileShop.API.Services.ProductGroup
 {
@@ -93,12 +94,12 @@ namespace SmileShop.API.Services.ProductGroup
                 }
 
                 _log.LogInformation("Add New Product Group.");
-                var addProductGroup = new Models.ProductGroup.ProductGroup
+                var addProductGroup = new Models.ProductGroupModel.ProductGroup
                 {
                     Name = newProductGroup.Name.Trim(),
-                    CreatedBy = GetUserId(),
+                    CreatedById = Guid.Parse(GetUserId()),
                     CreatedDate = Now(),
-                    UpdatedBy = GetUserId(),
+                    UpdatedById = Guid.Parse(GetUserId()),
                     UpdatedDate = Now(),
                     isActive = true
                 };
@@ -148,7 +149,7 @@ namespace SmileShop.API.Services.ProductGroup
 
                 productGroup.Name = updateProductGroup.Name.Trim();
                 productGroup.isActive = updateProductGroup.isActive;
-                productGroup.UpdatedBy = GetUserId();
+                productGroup.UpdatedById = Guid.Parse(GetUserId());
                 productGroup.UpdatedDate = Now();
 
 

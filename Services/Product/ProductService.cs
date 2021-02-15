@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Linq.Dynamic.Core;
+using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
@@ -8,6 +10,7 @@ using Microsoft.Extensions.Logging;
 using SmileShop.API.Data;
 using SmileShop.API.DTOs.Product;
 using SmileShop.API.Models;
+using SmileShop.API.Helpers;
 
 namespace SmileShop.API.Services.Product
 {
@@ -17,11 +20,14 @@ namespace SmileShop.API.Services.Product
         private readonly AppDBContext _dBContext;
         private readonly IMapper _mapper;
         private readonly ILogger<ProductService> _log;
+        private readonly IHttpContextAccessor _httpContext;
+
         public ProductService(AppDBContext dBContext, IMapper mapper, ILogger<ProductService> log, IHttpContextAccessor httpContext) : base(dBContext, mapper, httpContext)
         {
             _dBContext = dBContext;
             _mapper = mapper;
             _log = log;
+            _httpContext = httpContext;
         }
         #endregion
         public async Task<ServiceResponse<List<GetProductDto>>> GetAll()
@@ -93,15 +99,15 @@ namespace SmileShop.API.Services.Product
                 }
 
                 _log.LogInformation("Add New Product.");
-                var addProduct = new Models.Product.Product
+                var addProduct = new Models.ProductModel.Product
                 {
                     Name = newProduct.Name.Trim(),
                     Price = newProduct.Price,
                     Stock = newProduct.Stock,
                     ProductGroupId = newProduct.ProductGroupId,
-                    CreatedBy = GetUserId(),
+                    CreatedById = Guid.Parse(GetUserId()),
                     CreatedDate = Now(),
-                    UpdatedBy = GetUserId(),
+                    UpdatedById = Guid.Parse(GetUserId()),
                     UpdatedDate = Now(),
                     isActive = true
                 };
@@ -124,22 +130,22 @@ namespace SmileShop.API.Services.Product
                 return ResponseResult.Failure<GetProductDto>(ex.Message);
             }
         }
-        public async Task<ServiceResponse<GetProductDto>> Update(UpdateProductDto updateProduct)
+        public async Task<ServiceResponse<GetProductDto>> Update(int productId, UpdateProductDto updateProduct)
         {
             try
             {
                 _log.LogInformation("Start [Update] Process");
-                var product = await _dBContext.Products.FirstOrDefaultAsync(x => x.Id == updateProduct.Id);
+                var product = await _dBContext.Products.FirstOrDefaultAsync(x => x.Id == productId);
 
                 _log.LogInformation("Check Product ID.");
                 if (product is null)
                 {
-                    _log.LogInformation(String.Format("Product ID {0} not exists.", updateProduct.Id));
+                    _log.LogInformation(String.Format("Product ID {0} not exists.", productId));
                     return ResponseResult.Failure<GetProductDto>("Not Found.");
                 }
 
                 _log.LogInformation("Check Product Name.");
-                var duplicateName = await _dBContext.Products.FirstOrDefaultAsync(x => x.Name == updateProduct.Name && x.Id != updateProduct.Id);
+                var duplicateName = await _dBContext.Products.FirstOrDefaultAsync(x => x.Name == updateProduct.Name && x.Id != productId);
 
                 if (!(duplicateName is null))
                 {
@@ -163,7 +169,8 @@ namespace SmileShop.API.Services.Product
                 product.Price = updateProduct.Price;
                 product.Stock = updateProduct.Stock;
                 product.ProductGroupId = updateProduct.ProductGroupId;
-                product.UpdatedBy = GetUserId();
+                product.isActive = updateProduct.isActive;
+                product.UpdatedById = Guid.Parse(GetUserId());
                 product.UpdatedDate = Now();
 
                 _dBContext.Products.Update(product);
@@ -215,6 +222,48 @@ namespace SmileShop.API.Services.Product
                 return ResponseResult.Failure<GetProductDto>(ex.Message);
             }
         }
+
+        public async Task<ServiceResponseWithPagination<List<GetProductDto>>> Filter(FilterProduct filter)
+        {
+            try
+            {
+                _log.LogInformation("Start [Filter] Process.");
+                var queryable = _dBContext.Products.AsQueryable();
+
+                //Filter
+                if (!string.IsNullOrWhiteSpace(filter.Name))
+                {
+                    queryable = queryable.Where(x => x.Name.Contains(filter.Name));
+                }
+
+                //Ordering
+                if (!string.IsNullOrWhiteSpace(filter.OrderingField))
+                {
+                    try
+                    {
+                        queryable = queryable.OrderBy($"{filter.OrderingField} {(filter.AscendingOrder ? "asc" : "desc")}");
+                    }
+                    catch (System.Exception)
+                    {
+                        return ResponseResultWithPagination.Failure<List<GetProductDto>>(string.Format("Could not order by field : {0}", filter.OrderingField));
+                    }
+                }
+
+                var paginationResult = await _httpContext.HttpContext.InsertPaginationParametersInResponse(queryable, filter.RecordsPerPage, filter.Page);
+                var lstFilter = await queryable.Paginate(filter).ToListAsync();
+
+                var dto = _mapper.Map<List<GetProductDto>>(lstFilter);
+
+                return ResponseResultWithPagination.Success(dto, paginationResult);
+            }
+            catch (System.Exception ex)
+            {
+                _log.LogError(ex.Message);
+                return ResponseResultWithPagination.Failure<List<GetProductDto>>(ex.Message);
+            }
+        }
+
+
     }
 
 }

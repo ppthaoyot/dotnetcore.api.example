@@ -1,9 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SmileShop.API.Models;
-using SmileShop.API.Models.Product;
-using SmileShop.API.Models.ProductGroup;
+using SmileShop.API.Models.ProductModel;
+using SmileShop.API.Models.ProductGroupModel;
 using System;
 using System.Collections.Generic;
+using SmileShop.API.Models.StockModel;
 
 namespace SmileShop.API.Data
 {
@@ -43,5 +44,6 @@ namespace SmileShop.API.Data
         public DbSet<ProductGroup> ProductGroups { get; set; }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<Stock> Stocks { get; set; }
     }
 }

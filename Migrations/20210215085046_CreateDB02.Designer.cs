@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SmileShop.API.Data;
 
 namespace SmileShop.API.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    partial class AppDBContextModelSnapshot : ModelSnapshot
+    [Migration("20210215085046_CreateDB02")]
+    partial class CreateDB02
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -46,6 +48,8 @@ namespace SmileShop.API.Migrations
                         .HasColumnType("bit");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CreatedById");
 
                     b.ToTable("ProductGroup");
                 });
@@ -87,6 +91,8 @@ namespace SmileShop.API.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CreatedById");
+
                     b.HasIndex("ProductGroupId");
 
                     b.ToTable("Product");
@@ -110,59 +116,24 @@ namespace SmileShop.API.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("62ea7690-504f-4a77-8423-29610a0eed63"),
+                            Id = new Guid("978cc9e5-0f2f-48f0-81b1-9df51f534e0b"),
                             Name = "user"
                         },
                         new
                         {
-                            Id = new Guid("e73638f7-1440-41bd-840f-661c38cfc8ce"),
+                            Id = new Guid("89e80607-cb0d-44d2-b417-c00feed1402b"),
                             Name = "Manager"
                         },
                         new
                         {
-                            Id = new Guid("67b3d8fe-8d45-4cd1-8a86-625426329a08"),
+                            Id = new Guid("ed59052c-cb6a-4d14-a084-3f53eef023e9"),
                             Name = "Admin"
                         },
                         new
                         {
-                            Id = new Guid("aee617a8-6e50-451e-96c9-a094fae012fc"),
+                            Id = new Guid("4c09c358-13b0-482e-9b22-998c55fcc2d4"),
                             Name = "Developer"
                         });
-                });
-
-            modelBuilder.Entity("SmileShop.API.Models.StockModel.Stock", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("AmountAfter")
-                        .HasColumnType("int");
-
-                    b.Property<int>("AmountBefore")
-                        .HasColumnType("int");
-
-                    b.Property<int>("AmountEdit")
-                        .HasColumnType("int");
-
-                    b.Property<Guid>("CreatedById")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Remark")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("Stock");
                 });
 
             modelBuilder.Entity("SmileShop.API.Models.User", b =>
@@ -204,20 +175,26 @@ namespace SmileShop.API.Migrations
                     b.ToTable("UserRole","auth");
                 });
 
-            modelBuilder.Entity("SmileShop.API.Models.ProductModel.Product", b =>
+            modelBuilder.Entity("SmileShop.API.Models.ProductGroupModel.ProductGroup", b =>
                 {
-                    b.HasOne("SmileShop.API.Models.ProductGroupModel.ProductGroup", "ProductGroup")
-                        .WithMany("Products")
-                        .HasForeignKey("ProductGroupId")
+                    b.HasOne("SmileShop.API.Models.User", "CreatedBy")
+                        .WithMany()
+                        .HasForeignKey("CreatedById")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("SmileShop.API.Models.StockModel.Stock", b =>
+            modelBuilder.Entity("SmileShop.API.Models.ProductModel.Product", b =>
                 {
-                    b.HasOne("SmileShop.API.Models.ProductModel.Product", "Product")
+                    b.HasOne("SmileShop.API.Models.User", "CreatedBy")
                         .WithMany()
-                        .HasForeignKey("ProductId")
+                        .HasForeignKey("CreatedById")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SmileShop.API.Models.ProductGroupModel.ProductGroup", "ProductGroup")
+                        .WithMany("Products")
+                        .HasForeignKey("ProductGroupId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
