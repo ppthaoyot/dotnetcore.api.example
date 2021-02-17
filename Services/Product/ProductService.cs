@@ -35,7 +35,7 @@ namespace SmileShop.API.Services.Product
             try
             {
                 _log.LogInformation("Start [GetAll] Process.");
-                var product = await _dBContext.Products.Include(x => x.ProductGroup).AsNoTracking().ToListAsync();
+                var product = await _dBContext.Products.Include(x => x.ProductGroup).Include(x => x.CreatedBy).Include(x => x.UpdatedBy).AsNoTracking().ToListAsync();
 
                 _log.LogInformation("[GetAll] Success.");
                 var dto = _mapper.Map<List<GetProductDto>>(product);
@@ -54,7 +54,7 @@ namespace SmileShop.API.Services.Product
             try
             {
                 _log.LogInformation("Start [GetById] Process");
-                var product = await _dBContext.Products.Include(x => x.ProductGroup).FirstOrDefaultAsync(x => x.Id == productId);
+                var product = await _dBContext.Products.Include(x => x.ProductGroup).Include(x => x.CreatedBy).Include(x => x.UpdatedBy).FirstOrDefaultAsync(x => x.Id == productId);
 
                 if (product is null)
                 {
@@ -222,38 +222,52 @@ namespace SmileShop.API.Services.Product
                 return ResponseResult.Failure<GetProductDto>(ex.Message);
             }
         }
-
         public async Task<ServiceResponseWithPagination<List<GetProductDto>>> Filter(FilterProduct filter)
         {
             try
             {
                 _log.LogInformation("Start [Filter] Process.");
-                var queryable = _dBContext.Products.AsQueryable();
+                var queryable = _dBContext.Products.Include(x => x.CreatedBy).Include(x => x.ProductGroup).AsQueryable();
 
+                _log.LogInformation($"[Filter] Name : {filter.Name}");
                 //Filter
                 if (!string.IsNullOrWhiteSpace(filter.Name))
                 {
                     queryable = queryable.Where(x => x.Name.Contains(filter.Name));
                 }
 
+                _log.LogInformation($"[Filter] Ordering");
                 //Ordering
                 if (!string.IsNullOrWhiteSpace(filter.OrderingField))
                 {
                     try
                     {
+                        _log.LogInformation($"[Filter] Ordering by Field {filter.OrderingField} {(filter.AscendingOrder ? "asc" : "desc")}");
                         queryable = queryable.OrderBy($"{filter.OrderingField} {(filter.AscendingOrder ? "asc" : "desc")}");
                     }
-                    catch (System.Exception)
+                    catch (System.Exception ex)
                     {
+                        _log.LogError($"[Filter] Ordering Fail :{ex.Message}");
                         return ResponseResultWithPagination.Failure<List<GetProductDto>>(string.Format("Could not order by field : {0}", filter.OrderingField));
                     }
                 }
+                else
+                {
+                    _log.LogInformation($"[Filter] Ordering by Default : Id");
+                    queryable = queryable.OrderBy(x => x.Id);
+                }
 
+                _log.LogInformation($"[Filter] Insert Pagination Parameters InResponse");
                 var paginationResult = await _httpContext.HttpContext.InsertPaginationParametersInResponse(queryable, filter.RecordsPerPage, filter.Page);
+
+                _log.LogInformation($"[Filter] Result Paginate");
                 var lstFilter = await queryable.Paginate(filter).ToListAsync();
 
+                _log.LogInformation($"[Filter] Map Data");
                 var dto = _mapper.Map<List<GetProductDto>>(lstFilter);
 
+                _log.LogInformation($"[Filter] Success.");
+                _log.LogInformation($"End [Filter] Process.");
                 return ResponseResultWithPagination.Success(dto, paginationResult);
             }
             catch (System.Exception ex)

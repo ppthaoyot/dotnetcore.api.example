@@ -18,11 +18,13 @@ namespace SmileShop.API.Models.ProductGroupModel
 
         [Required]
         public Guid CreatedById { get; set; }
+        public User CreatedBy { get; set; }
 
         [Required]
         public DateTime CreatedDate { get; set; }
 
         public Guid UpdatedById { get; set; }
+        public User UpdatedBy { get; set; }
 
         public DateTime UpdatedDate { get; set; }
 

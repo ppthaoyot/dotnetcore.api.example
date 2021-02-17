@@ -38,7 +38,12 @@ namespace SmileShop.API.Services.ProductGroup
             try
             {
                 _log.LogInformation("Start [GetAll] Process.");
-                var productGroup = await _dBContext.ProductGroups.Include(x => x.Products).AsNoTracking().ToListAsync();
+                var productGroup = await _dBContext.ProductGroups
+                .Include(x => x.Products).ThenInclude(x => x.CreatedBy)
+                .Include(x => x.Products).ThenInclude(x => x.UpdatedBy)
+                .Include(x => x.CreatedBy)
+                .Include(x => x.UpdatedBy)
+                .AsNoTracking().ToListAsync();
 
                 _log.LogInformation("[GetAll] Success.");
                 var dto = _mapper.Map<List<GetProductGroupDto>>(productGroup);
@@ -57,7 +62,7 @@ namespace SmileShop.API.Services.ProductGroup
             try
             {
                 _log.LogInformation("Start [GetById] Process");
-                var productGroup = await _dBContext.ProductGroups.Include(x => x.Products).FirstOrDefaultAsync(x => x.Id == productGroupId);
+                var productGroup = await _dBContext.ProductGroups.Include(x => x.Products).Include(x => x.CreatedBy).Include(x => x.UpdatedBy).FirstOrDefaultAsync(x => x.Id == productGroupId);
 
                 if (productGroup is null)
                 {
@@ -84,7 +89,7 @@ namespace SmileShop.API.Services.ProductGroup
             try
             {
                 _log.LogInformation("Start [Add] Process");
-                var productGroup = await _dBContext.ProductGroups.FirstOrDefaultAsync(x => x.Name == newProductGroup.Name.Trim());
+                var productGroup = await _dBContext.ProductGroups.Include(x => x.CreatedBy).FirstOrDefaultAsync(x => x.Name == newProductGroup.Name.Trim());
 
                 if (!(productGroup is null))
                 {
@@ -127,7 +132,7 @@ namespace SmileShop.API.Services.ProductGroup
             try
             {
                 _log.LogInformation("Start [Update] Process");
-                var productGroup = await _dBContext.ProductGroups.FirstOrDefaultAsync(x => x.Id == productGroupId);
+                var productGroup = await _dBContext.ProductGroups.Include(x => x.UpdatedBy).FirstOrDefaultAsync(x => x.Id == productGroupId);
 
                 _log.LogInformation("Check Product Group ID.");
                 if (productGroup is null)
@@ -175,7 +180,7 @@ namespace SmileShop.API.Services.ProductGroup
             try
             {
                 _log.LogInformation("Start [Remove] Process");
-                var productGroup = await _dBContext.ProductGroups.FirstOrDefaultAsync(x => x.Id == productGroupId);
+                var productGroup = await _dBContext.ProductGroups.Include(x => x.UpdatedBy).FirstOrDefaultAsync(x => x.Id == productGroupId);
 
                 _log.LogInformation("Check Product Group ID.");
                 if (productGroup is null)
@@ -203,43 +208,57 @@ namespace SmileShop.API.Services.ProductGroup
                 return ResponseResult.Failure<GetProductGroupDto>(ex.Message);
             }
         }
-        public async Task<ServiceResponseWithPagination<List<GetProductGroupDto>>> Filter(FilterProductGroup filter)
+        public async Task<ServiceResponseWithPagination<List<GetProductGroupFilterDto>>> Filter(FilterProductGroup filter)
         {
             try
             {
                 _log.LogInformation("Start [Filter] Process.");
-                var queryable = _dBContext.ProductGroups.AsQueryable();
+                var queryable = _dBContext.ProductGroups.Include(x => x.CreatedBy).Include(x => x.UpdatedBy).AsQueryable();
 
+                _log.LogInformation($"[Filter] Name : {filter.Name}");
                 //Filter
                 if (!string.IsNullOrWhiteSpace(filter.Name))
                 {
                     queryable = queryable.Where(x => x.Name.Contains(filter.Name));
                 }
-
+                _log.LogInformation($"[Filter] Ordering");
                 //Ordering
                 if (!string.IsNullOrWhiteSpace(filter.OrderingField))
                 {
                     try
                     {
+                        _log.LogInformation($"[Filter] Ordering by Field {filter.OrderingField} {(filter.AscendingOrder ? "asc" : "desc")}");
                         queryable = queryable.OrderBy($"{filter.OrderingField} {(filter.AscendingOrder ? "asc" : "desc")}");
                     }
-                    catch (System.Exception)
+                    catch (System.Exception ex)
                     {
-                        return ResponseResultWithPagination.Failure<List<GetProductGroupDto>>(string.Format("Could not order by field : {0}", filter.OrderingField));
+                        _log.LogError($"[Filter] Ordering Fail :{ex.Message}");
+                        return ResponseResultWithPagination.Failure<List<GetProductGroupFilterDto>>(string.Format("Could not order by field : {0}", filter.OrderingField));
                     }
                 }
+                else
+                {
+                    _log.LogInformation($"[Filter] Ordering by Default : Id");
+                    queryable = queryable.OrderBy(x => x.Id);
+                }
 
+                _log.LogInformation($"[Filter] Insert Pagination Parameters InResponse");
                 var paginationResult = await _httpContext.HttpContext.InsertPaginationParametersInResponse(queryable, filter.RecordsPerPage, filter.Page);
+
+                _log.LogInformation($"[Filter] Result Paginate");
                 var lstFilter = await queryable.Paginate(filter).ToListAsync();
 
-                var dto = _mapper.Map<List<GetProductGroupDto>>(lstFilter);
+                _log.LogInformation($"[Filter] Map Data");
+                var dto = _mapper.Map<List<GetProductGroupFilterDto>>(lstFilter);
 
+                _log.LogInformation($"[Filter] Success.");
+                _log.LogInformation($"End [Filter] Process.");
                 return ResponseResultWithPagination.Success(dto, paginationResult);
             }
             catch (System.Exception ex)
             {
                 _log.LogError(ex.Message);
-                return ResponseResultWithPagination.Failure<List<GetProductGroupDto>>(ex.Message);
+                return ResponseResultWithPagination.Failure<List<GetProductGroupFilterDto>>(ex.Message);
             }
         }
     }

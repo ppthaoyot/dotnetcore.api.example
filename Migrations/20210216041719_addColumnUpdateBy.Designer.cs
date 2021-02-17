@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SmileShop.API.Data;
 
 namespace SmileShop.API.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    partial class AppDBContextModelSnapshot : ModelSnapshot
+    [Migration("20210216041719_addColumnUpdateBy")]
+    partial class addColumnUpdateBy
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -91,11 +93,7 @@ namespace SmileShop.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CreatedById");
-
                     b.HasIndex("ProductGroupId");
-
-                    b.HasIndex("UpdatedById");
 
                     b.ToTable("Product");
                 });
@@ -118,22 +116,22 @@ namespace SmileShop.API.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("e48e1981-2c53-4404-90eb-4486a16dc042"),
+                            Id = new Guid("4e4eea53-52cd-4954-9de7-0f2dcc3d9ef9"),
                             Name = "user"
                         },
                         new
                         {
-                            Id = new Guid("662dbaa8-b205-471a-84f4-b2593f0598c9"),
+                            Id = new Guid("06e2f43d-c972-4977-8115-ecb420d1600f"),
                             Name = "Manager"
                         },
                         new
                         {
-                            Id = new Guid("566c4cdc-73b4-4052-823b-0c5bb4a85374"),
+                            Id = new Guid("52eddab9-1032-469a-b883-2ae4aa81c7a7"),
                             Name = "Admin"
                         },
                         new
                         {
-                            Id = new Guid("2808bf46-ad1c-4995-ad66-a50e22bde1ac"),
+                            Id = new Guid("2e1a762b-dc9e-4f9e-8194-f8edb3de892e"),
                             Name = "Developer"
                         });
                 });
@@ -229,21 +227,9 @@ namespace SmileShop.API.Migrations
 
             modelBuilder.Entity("SmileShop.API.Models.ProductModel.Product", b =>
                 {
-                    b.HasOne("SmileShop.API.Models.User", "CreatedBy")
-                        .WithMany()
-                        .HasForeignKey("CreatedById")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("SmileShop.API.Models.ProductGroupModel.ProductGroup", "ProductGroup")
                         .WithMany("Products")
                         .HasForeignKey("ProductGroupId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("SmileShop.API.Models.User", "UpdatedBy")
-                        .WithMany()
-                        .HasForeignKey("UpdatedById")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

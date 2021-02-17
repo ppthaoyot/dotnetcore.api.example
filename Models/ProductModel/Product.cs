@@ -22,14 +22,16 @@ namespace SmileShop.API.Models.ProductModel
 
         [Required]
         public Guid CreatedById { get; set; }
+        public User CreatedBy { get; set; }
 
         [Required]
         public DateTime CreatedDate { get; set; }
-        [Required]
 
+        [Required]
         public Guid UpdatedById { get; set; }
-        [Required]
+        public User UpdatedBy { get; set; }
 
+        [Required]
         public DateTime UpdatedDate { get; set; }
 
         [Required]

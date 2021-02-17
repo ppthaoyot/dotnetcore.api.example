@@ -5,7 +5,7 @@ using SmileShop.API.Models;
 
 namespace SmileShop.API.DTOs.ProductGroup
 {
-    public class GetProductGroupDto
+    public class GetProductGroupFilterDto
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -14,6 +14,5 @@ namespace SmileShop.API.DTOs.ProductGroup
         public bool isActive { get; set; }
         public UserDto CreatedBy { get; set; }
         public UserDto UpdatedBy { get; set; }
-        public List<GetProductNameDto> Products { get; set; }
     }
 }

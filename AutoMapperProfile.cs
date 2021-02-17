@@ -20,7 +20,10 @@ namespace SmileShop.API
             CreateMap<UserRole, UserRoleDto>();
 
             CreateMap<Product, GetProductDto>();
+            CreateMap<Product, GetProductNameDto>();
             CreateMap<ProductGroup, GetProductGroupDto>();
+            CreateMap<ProductGroup, GetProductGroupNameDto>();
+            CreateMap<ProductGroup, GetProductGroupFilterDto>();
         }
     }
 }

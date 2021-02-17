@@ -1,0 +1,304 @@
+2021-02-16 10:54:31.825 +07:00 [INF] Starting web host
+2021-02-16 10:54:32.765 +07:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2021-02-16 10:54:32.813 +07:00 [FTL] Host terminated unexpectedly
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at SmileShop.API.Program.Main(String[] args) in D:\Workshop\smileshop.dotnetcore.api\SmileShop.API\Program.cs:line 28
+2021-02-16 10:56:31.726 +07:00 [INF] Starting web host
+2021-02-16 10:56:47.186 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 10:57:10.135 +07:00 [INF] [GetAll] Success.
+2021-02-16 10:58:21.839 +07:00 [INF] End [GetAll] Process.
+2021-02-16 10:59:48.424 +07:00 [INF] Starting web host
+2021-02-16 10:59:50.643 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 10:59:51.419 +07:00 [INF] [GetAll] Success.
+2021-02-16 10:59:51.432 +07:00 [ERR] Error mapping types.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[SmileShop.API.DTOs.Product.GetProductDto, SmileShop.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2021-02-16 11:00:58.995 +07:00 [INF] Starting web host
+2021-02-16 11:01:01.390 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 11:01:02.168 +07:00 [INF] [GetAll] Success.
+2021-02-16 11:01:02.179 +07:00 [INF] End [GetAll] Process.
+2021-02-16 11:01:05.531 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 11:01:05.577 +07:00 [INF] [GetAll] Success.
+2021-02-16 11:01:05.584 +07:00 [INF] End [GetAll] Process.
+2021-02-16 11:01:09.331 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 11:01:09.343 +07:00 [INF] [GetAll] Success.
+2021-02-16 11:01:09.343 +07:00 [INF] End [GetAll] Process.
+2021-02-16 11:01:34.806 +07:00 [INF] Starting web host
+2021-02-16 11:01:42.800 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 11:01:43.583 +07:00 [INF] [GetAll] Success.
+2021-02-16 11:01:43.598 +07:00 [INF] End [GetAll] Process.
+2021-02-16 11:02:10.093 +07:00 [INF] Starting web host
+2021-02-16 11:02:15.738 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 11:02:16.529 +07:00 [INF] [GetAll] Success.
+2021-02-16 11:02:16.547 +07:00 [ERR] Error mapping types.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[SmileShop.API.DTOs.ProductGroup.GetProductGroupDto, SmileShop.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2021-02-16 11:02:46.164 +07:00 [INF] Starting web host
+2021-02-16 11:04:11.546 +07:00 [INF] Starting web host
+2021-02-16 11:04:23.670 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 11:04:24.504 +07:00 [INF] [GetAll] Success.
+2021-02-16 11:04:24.524 +07:00 [ERR] Error mapping types.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[SmileShop.API.DTOs.ProductGroup.GetProductGroupDto, SmileShop.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+2021-02-16 11:04:48.532 +07:00 [INF] Starting web host
+2021-02-16 11:04:49.690 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 11:04:50.474 +07:00 [INF] [GetAll] Success.
+2021-02-16 11:04:50.491 +07:00 [INF] End [GetAll] Process.
+2021-02-16 11:06:03.941 +07:00 [INF] Starting web host
+2021-02-16 11:06:05.543 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 11:06:06.338 +07:00 [INF] [GetAll] Success.
+2021-02-16 11:06:06.357 +07:00 [INF] End [GetAll] Process.
+2021-02-16 11:43:17.487 +07:00 [INF] Starting web host
+2021-02-16 11:43:59.606 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 11:44:00.399 +07:00 [INF] [GetAll] Success.
+2021-02-16 11:44:00.415 +07:00 [INF] End [GetAll] Process.
+2021-02-16 11:45:33.269 +07:00 [INF] Starting web host
+2021-02-16 11:46:42.283 +07:00 [INF] Start [Filter] Process.
+2021-02-16 11:49:47.527 +07:00 [INF] Starting web host
+2021-02-16 11:50:10.868 +07:00 [INF] Start [Filter] Process.
+2021-02-16 11:54:36.794 +07:00 [INF] Starting web host
+2021-02-16 11:54:59.834 +07:00 [INF] Start [Filter] Process.
+2021-02-16 11:56:32.268 +07:00 [INF] Starting web host
+2021-02-16 11:56:37.576 +07:00 [INF] Start [Filter] Process.
+2021-02-16 11:57:28.775 +07:00 [INF] Start [Filter] Process.
+2021-02-16 11:57:43.472 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 11:57:43.518 +07:00 [INF] [GetAll] Success.
+2021-02-16 11:57:43.518 +07:00 [INF] End [GetAll] Process.
+2021-02-16 11:59:41.741 +07:00 [INF] Starting web host
+2021-02-16 12:01:49.791 +07:00 [INF] Starting web host
+2021-02-16 12:01:53.837 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 12:01:54.644 +07:00 [INF] [GetAll] Success.
+2021-02-16 12:01:54.665 +07:00 [INF] End [GetAll] Process.
+2021-02-16 12:02:16.650 +07:00 [INF] Start [Filter] Process.
+2021-02-16 12:03:45.359 +07:00 [INF] Starting web host
+2021-02-16 12:03:47.987 +07:00 [INF] Start [Filter] Process.
+2021-02-16 12:15:06.983 +07:00 [INF] Starting web host
+2021-02-16 12:15:09.963 +07:00 [INF] Start [Filter] Process.
+2021-02-16 12:15:27.205 +07:00 [INF] Starting web host
+2021-02-16 12:15:29.782 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:29:45.869 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:30:47.463 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:30:50.161 +07:00 [INF] Start [GetById] Process
+2021-02-16 13:30:50.222 +07:00 [INF] [GetById] Success
+2021-02-16 13:30:50.236 +07:00 [INF] End [GetById] Process.
+2021-02-16 13:30:56.295 +07:00 [INF] Start [GetById] Process
+2021-02-16 13:30:56.303 +07:00 [INF] [GetById] Success
+2021-02-16 13:30:56.303 +07:00 [INF] End [GetById] Process.
+2021-02-16 13:30:59.858 +07:00 [INF] Start [Update] Process
+2021-02-16 13:30:59.873 +07:00 [INF] Check Product Group ID.
+2021-02-16 13:30:59.873 +07:00 [INF] Check Product Group Name.
+2021-02-16 13:30:59.880 +07:00 [INF] Update Product Group.
+2021-02-16 13:30:59.918 +07:00 [INF] [Update] Success.
+2021-02-16 13:30:59.918 +07:00 [INF] End [Update] process.
+2021-02-16 13:31:00.001 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:31:02.307 +07:00 [INF] Start [GetById] Process
+2021-02-16 13:31:02.316 +07:00 [INF] [GetById] Success
+2021-02-16 13:31:02.317 +07:00 [INF] End [GetById] Process.
+2021-02-16 13:31:05.614 +07:00 [INF] Start [Update] Process
+2021-02-16 13:31:05.619 +07:00 [INF] Check Product Group ID.
+2021-02-16 13:31:05.619 +07:00 [INF] Check Product Group Name.
+2021-02-16 13:31:05.620 +07:00 [INF] Update Product Group.
+2021-02-16 13:31:05.626 +07:00 [INF] [Update] Success.
+2021-02-16 13:31:05.626 +07:00 [INF] End [Update] process.
+2021-02-16 13:31:05.694 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:31:07.811 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:31:11.356 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 13:31:11.356 +07:00 [INF] Start [GetById] Process
+2021-02-16 13:31:11.370 +07:00 [INF] [GetById] Success
+2021-02-16 13:31:11.378 +07:00 [INF] End [GetById] Process.
+2021-02-16 13:31:11.386 +07:00 [INF] [GetAll] Success.
+2021-02-16 13:31:11.401 +07:00 [INF] End [GetAll] Process.
+2021-02-16 13:31:18.588 +07:00 [INF] Start [Update] Process
+2021-02-16 13:31:18.598 +07:00 [INF] Check Product ID.
+2021-02-16 13:31:18.598 +07:00 [INF] Check Product Name.
+2021-02-16 13:31:18.607 +07:00 [INF] Check ProductGroup.
+2021-02-16 13:31:18.615 +07:00 [ERR] Product Group not exists.
+2021-02-16 13:31:22.863 +07:00 [INF] Start [GetById] Process
+2021-02-16 13:31:22.866 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 13:31:22.869 +07:00 [INF] [GetById] Success
+2021-02-16 13:31:22.870 +07:00 [INF] End [GetById] Process.
+2021-02-16 13:31:22.876 +07:00 [INF] [GetAll] Success.
+2021-02-16 13:31:22.877 +07:00 [INF] End [GetAll] Process.
+2021-02-16 13:31:27.343 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 13:31:27.347 +07:00 [INF] [GetAll] Success.
+2021-02-16 13:31:27.347 +07:00 [INF] End [GetAll] Process.
+2021-02-16 13:31:27.348 +07:00 [INF] Start [GetById] Process
+2021-02-16 13:31:27.352 +07:00 [INF] [GetById] Success
+2021-02-16 13:31:27.352 +07:00 [INF] End [GetById] Process.
+2021-02-16 13:31:30.307 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 13:31:30.308 +07:00 [INF] Start [GetById] Process
+2021-02-16 13:31:30.311 +07:00 [INF] [GetAll] Success.
+2021-02-16 13:31:30.311 +07:00 [INF] [GetById] Success
+2021-02-16 13:31:30.311 +07:00 [INF] End [GetById] Process.
+2021-02-16 13:31:30.311 +07:00 [INF] End [GetAll] Process.
+2021-02-16 13:31:33.534 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 13:31:33.537 +07:00 [INF] Start [GetById] Process
+2021-02-16 13:31:33.538 +07:00 [INF] [GetAll] Success.
+2021-02-16 13:31:33.538 +07:00 [INF] End [GetAll] Process.
+2021-02-16 13:31:33.540 +07:00 [INF] [GetById] Success
+2021-02-16 13:31:33.540 +07:00 [INF] End [GetById] Process.
+2021-02-16 13:31:47.446 +07:00 [INF] Start [Update] Process
+2021-02-16 13:31:47.451 +07:00 [INF] Check Product ID.
+2021-02-16 13:31:47.451 +07:00 [INF] Check Product Name.
+2021-02-16 13:31:47.455 +07:00 [INF] Check ProductGroup.
+2021-02-16 13:31:47.459 +07:00 [ERR] Product Group not exists.
+2021-02-16 13:31:52.085 +07:00 [INF] Start [GetById] Process
+2021-02-16 13:31:52.087 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 13:31:52.091 +07:00 [INF] [GetById] Success
+2021-02-16 13:31:52.092 +07:00 [INF] End [GetById] Process.
+2021-02-16 13:31:52.092 +07:00 [INF] [GetAll] Success.
+2021-02-16 13:31:52.092 +07:00 [INF] End [GetAll] Process.
+2021-02-16 13:31:59.086 +07:00 [INF] Start [Update] Process
+2021-02-16 13:31:59.090 +07:00 [INF] Check Product ID.
+2021-02-16 13:31:59.090 +07:00 [INF] Check Product Name.
+2021-02-16 13:31:59.093 +07:00 [INF] Check ProductGroup.
+2021-02-16 13:31:59.097 +07:00 [ERR] Product Group not exists.
+2021-02-16 13:32:03.221 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:32:07.078 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 13:32:07.081 +07:00 [INF] [GetAll] Success.
+2021-02-16 13:32:07.082 +07:00 [INF] End [GetAll] Process.
+2021-02-16 13:32:21.787 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 13:32:21.788 +07:00 [INF] Start [GetById] Process
+2021-02-16 13:32:21.792 +07:00 [INF] [GetById] Success
+2021-02-16 13:32:21.792 +07:00 [INF] End [GetById] Process.
+2021-02-16 13:32:21.793 +07:00 [INF] [GetAll] Success.
+2021-02-16 13:32:21.793 +07:00 [INF] End [GetAll] Process.
+2021-02-16 13:32:29.782 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 13:32:29.789 +07:00 [INF] [GetAll] Success.
+2021-02-16 13:32:29.789 +07:00 [INF] End [GetAll] Process.
+2021-02-16 13:32:32.212 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 13:32:32.215 +07:00 [INF] [GetAll] Success.
+2021-02-16 13:32:32.215 +07:00 [INF] End [GetAll] Process.
+2021-02-16 13:32:32.216 +07:00 [INF] Start [GetById] Process
+2021-02-16 13:32:32.220 +07:00 [INF] [GetById] Success
+2021-02-16 13:32:32.221 +07:00 [INF] End [GetById] Process.
+2021-02-16 13:32:49.503 +07:00 [INF] Starting web host
+2021-02-16 13:32:51.226 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:33:06.791 +07:00 [INF] Start [Add] Process
+2021-02-16 13:33:06.831 +07:00 [INF] Add New Product Group.
+2021-02-16 13:33:06.955 +07:00 [INF] [Add] Success.
+2021-02-16 13:33:06.988 +07:00 [INF] End [Add] process.
+2021-02-16 13:33:09.489 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:33:13.151 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:33:13.829 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:33:15.292 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:33:21.284 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:33:33.584 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:33:34.267 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:33:35.497 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:33:36.294 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:33:37.153 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:33:39.002 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:33:41.320 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:35:06.425 +07:00 [INF] Starting web host
+2021-02-16 13:35:13.303 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:35:32.808 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:35:43.726 +07:00 [INF] Start [Filter] Process.
+2021-02-16 13:38:28.348 +07:00 [INF] Starting web host
+2021-02-16 15:59:15.445 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:01:45.858 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:03:06.435 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:03:07.172 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:03:30.418 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:04:40.751 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:06:22.025 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:07:50.789 +07:00 [INF] Start [Add] Process
+2021-02-16 16:07:50.807 +07:00 [INF] Add New Product Group.
+2021-02-16 16:07:50.990 +07:00 [INF] [Add] Success.
+2021-02-16 16:07:51.034 +07:00 [INF] End [Add] process.
+2021-02-16 16:07:53.912 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:08:03.845 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:08:07.057 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:12:42.383 +07:00 [INF] Starting web host
+2021-02-16 16:12:50.407 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:12:56.226 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:13:25.946 +07:00 [INF] Starting web host
+2021-02-16 16:13:29.874 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:15:25.687 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:15:51.077 +07:00 [INF] Starting web host
+2021-02-16 16:15:56.177 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:17:27.769 +07:00 [INF] Starting web host
+2021-02-16 16:17:35.708 +07:00 [INF] Starting web host
+2021-02-16 16:17:39.941 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:17:44.099 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:18:43.814 +07:00 [INF] Starting web host
+2021-02-16 16:18:51.222 +07:00 [INF] Starting web host
+2021-02-16 16:19:06.145 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:19:52.026 +07:00 [INF] Starting web host
+2021-02-16 16:19:59.112 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:20:49.975 +07:00 [INF] Starting web host
+2021-02-16 16:20:58.548 +07:00 [INF] Starting web host
+2021-02-16 16:21:06.920 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:22:46.380 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:24:08.248 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:24:33.619 +07:00 [INF] Starting web host
+2021-02-16 16:24:37.199 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:27:13.478 +07:00 [INF] Starting web host
+2021-02-16 16:27:18.811 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:28:33.726 +07:00 [INF] Starting web host
+2021-02-16 16:28:38.869 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:36:03.468 +07:00 [INF] Starting web host
+2021-02-16 16:36:14.878 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:40:14.011 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:42:57.417 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:44:20.329 +07:00 [INF] Starting web host
+2021-02-16 16:44:24.586 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:52:55.751 +07:00 [INF] Starting web host
+2021-02-16 16:53:54.383 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 16:53:54.441 +07:00 [INF] [GetAll] Success.
+2021-02-16 16:53:54.469 +07:00 [INF] End [GetAll] Process.
+2021-02-16 16:55:04.093 +07:00 [INF] Start [GetAll] Process.
+2021-02-16 16:55:04.106 +07:00 [INF] [GetAll] Success.
+2021-02-16 16:55:04.108 +07:00 [INF] End [GetAll] Process.
+2021-02-16 16:56:24.909 +07:00 [INF] Start [Filter] Process.
+2021-02-16 16:58:04.620 +07:00 [INF] Starting web host
+2021-02-16 16:58:19.046 +07:00 [INF] Starting web host
+2021-02-16 16:58:22.903 +07:00 [INF] Start [Filter] Process.

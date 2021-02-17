@@ -1,0 +1,16 @@
+2021-02-16 10:11:30.239 +07:00 [INF] Starting web host
+2021-02-16 10:12:46.001 +07:00 [INF] Start [GetById] Process
+2021-02-16 10:12:46.105 +07:00 [INF] [GetById] Success
+2021-02-16 10:12:46.126 +07:00 [ERR] Error mapping types.
+
+Mapping types:
+ProductGroup -> GetProductGroupDto
+SmileShop.API.Models.ProductGroupModel.ProductGroup -> SmileShop.API.DTOs.ProductGroup.GetProductGroupDto
+
+Type Map configuration:
+ProductGroup -> GetProductGroupDto
+SmileShop.API.Models.ProductGroupModel.ProductGroup -> SmileShop.API.DTOs.ProductGroup.GetProductGroupDto
+
+Destination Member:
+Products
+

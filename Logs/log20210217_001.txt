@@ -1,0 +1,162 @@
+2021-02-17 09:32:52.568 +07:00 [INF] Starting web host
+2021-02-17 09:32:53.338 +07:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2021-02-17 09:32:53.391 +07:00 [FTL] Host terminated unexpectedly
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at SmileShop.API.Program.Main(String[] args) in D:\Workshop\smileshop.dotnetcore.api\SmileShop.API\Program.cs:line 28
+2021-02-17 09:33:15.882 +07:00 [INF] Starting web host
+2021-02-17 09:33:25.771 +07:00 [INF] Start [Filter] Process.
+2021-02-17 09:33:26.281 +07:00 [INF] [Filter] Name : 
+2021-02-17 09:33:26.281 +07:00 [INF] [Filter] Ordering
+2021-02-17 09:33:26.281 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 09:33:26.283 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 09:33:26.801 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 09:33:26.976 +07:00 [INF] [Filter] Map Data
+2021-02-17 09:33:43.886 +07:00 [INF] [Filter] Success.
+2021-02-17 09:33:43.889 +07:00 [INF] End [Filter] Process.
+2021-02-17 09:35:31.173 +07:00 [INF] Starting web host
+2021-02-17 09:35:46.442 +07:00 [INF] Start [Filter] Process.
+2021-02-17 09:35:46.453 +07:00 [INF] [Filter] Name : 
+2021-02-17 09:35:46.459 +07:00 [INF] [Filter] Ordering
+2021-02-17 09:35:46.468 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 09:35:46.471 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 09:35:46.497 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 09:35:46.561 +07:00 [INF] [Filter] Map Data
+2021-02-17 09:35:46.577 +07:00 [INF] [Filter] Success.
+2021-02-17 09:35:46.579 +07:00 [INF] End [Filter] Process.
+2021-02-17 09:36:36.833 +07:00 [INF] Start [Filter] Process.
+2021-02-17 09:36:36.835 +07:00 [INF] [Filter] Name : 
+2021-02-17 09:36:36.837 +07:00 [INF] [Filter] Ordering
+2021-02-17 09:36:36.838 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 09:36:36.839 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 09:36:36.842 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 09:36:36.846 +07:00 [INF] [Filter] Map Data
+2021-02-17 09:36:36.848 +07:00 [INF] [Filter] Success.
+2021-02-17 09:36:36.849 +07:00 [INF] End [Filter] Process.
+2021-02-17 09:37:30.207 +07:00 [INF] Start [Filter] Process.
+2021-02-17 09:37:30.209 +07:00 [INF] [Filter] Name : 
+2021-02-17 09:37:30.210 +07:00 [INF] [Filter] Ordering
+2021-02-17 09:37:30.211 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 09:37:30.212 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 09:37:30.224 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 09:37:30.230 +07:00 [INF] [Filter] Map Data
+2021-02-17 09:37:30.232 +07:00 [INF] [Filter] Success.
+2021-02-17 09:37:30.233 +07:00 [INF] End [Filter] Process.
+2021-02-17 09:43:21.251 +07:00 [INF] Start [Filter] Process.
+2021-02-17 09:44:22.919 +07:00 [INF] Start [Filter] Process.
+2021-02-17 09:44:22.921 +07:00 [INF] [Filter] Name : 
+2021-02-17 09:44:22.923 +07:00 [INF] [Filter] Ordering
+2021-02-17 09:44:22.924 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 09:44:22.926 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 09:44:23.252 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 09:44:23.265 +07:00 [INF] [Filter] Map Data
+2021-02-17 09:44:23.267 +07:00 [INF] [Filter] Success.
+2021-02-17 09:44:23.269 +07:00 [INF] End [Filter] Process.
+2021-02-17 09:44:24.196 +07:00 [INF] Start [Filter] Process.
+2021-02-17 09:44:30.782 +07:00 [INF] Start [Filter] Process.
+2021-02-17 09:44:30.785 +07:00 [INF] [Filter] Name : 
+2021-02-17 09:44:30.786 +07:00 [INF] [Filter] Ordering
+2021-02-17 09:44:30.787 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 09:44:30.789 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 09:44:30.792 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 09:44:30.798 +07:00 [INF] [Filter] Map Data
+2021-02-17 09:44:30.799 +07:00 [INF] [Filter] Success.
+2021-02-17 09:44:30.801 +07:00 [INF] End [Filter] Process.
+2021-02-17 09:44:43.395 +07:00 [INF] Start [Filter] Process.
+2021-02-17 09:44:43.397 +07:00 [INF] [Filter] Name : 
+2021-02-17 09:44:43.399 +07:00 [INF] [Filter] Ordering
+2021-02-17 09:44:43.400 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 09:44:43.401 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 09:44:43.412 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 09:44:43.420 +07:00 [INF] [Filter] Map Data
+2021-02-17 09:44:43.421 +07:00 [INF] [Filter] Success.
+2021-02-17 09:44:43.422 +07:00 [INF] End [Filter] Process.
+2021-02-17 09:44:53.770 +07:00 [INF] Start [Filter] Process.
+2021-02-17 09:44:53.772 +07:00 [INF] [Filter] Name : 
+2021-02-17 09:44:53.773 +07:00 [INF] [Filter] Ordering
+2021-02-17 09:44:53.775 +07:00 [INF] [Filter] Ordering by Field createdBy.username asc
+2021-02-17 09:44:53.888 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 09:44:53.897 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 09:44:53.910 +07:00 [INF] [Filter] Map Data
+2021-02-17 09:44:53.911 +07:00 [INF] [Filter] Success.
+2021-02-17 09:44:53.912 +07:00 [INF] End [Filter] Process.
+2021-02-17 09:44:54.777 +07:00 [INF] Start [Filter] Process.
+2021-02-17 09:44:54.779 +07:00 [INF] [Filter] Name : 
+2021-02-17 09:44:54.780 +07:00 [INF] [Filter] Ordering
+2021-02-17 09:44:54.781 +07:00 [INF] [Filter] Ordering by Field createdBy.username desc
+2021-02-17 09:44:54.782 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 09:44:54.787 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 09:44:54.800 +07:00 [INF] [Filter] Map Data
+2021-02-17 09:44:54.801 +07:00 [INF] [Filter] Success.
+2021-02-17 09:44:54.802 +07:00 [INF] End [Filter] Process.
+2021-02-17 09:44:55.687 +07:00 [INF] Start [Filter] Process.
+2021-02-17 09:44:55.689 +07:00 [INF] [Filter] Name : 
+2021-02-17 09:44:55.690 +07:00 [INF] [Filter] Ordering
+2021-02-17 09:44:55.691 +07:00 [INF] [Filter] Ordering by Field createdBy.username asc
+2021-02-17 09:44:55.693 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 09:44:55.695 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 09:44:55.697 +07:00 [INF] [Filter] Map Data
+2021-02-17 09:44:55.698 +07:00 [INF] [Filter] Success.
+2021-02-17 09:44:55.699 +07:00 [INF] End [Filter] Process.
+2021-02-17 09:44:56.490 +07:00 [INF] Start [Filter] Process.
+2021-02-17 09:44:56.492 +07:00 [INF] [Filter] Name : 
+2021-02-17 09:44:56.493 +07:00 [INF] [Filter] Ordering
+2021-02-17 09:44:56.494 +07:00 [INF] [Filter] Ordering by Field createdBy.username desc
+2021-02-17 09:44:56.495 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 09:44:56.498 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 09:44:56.501 +07:00 [INF] [Filter] Map Data
+2021-02-17 09:44:56.502 +07:00 [INF] [Filter] Success.
+2021-02-17 09:44:56.503 +07:00 [INF] End [Filter] Process.
+2021-02-17 09:45:05.248 +07:00 [INF] Start [Filter] Process.
+2021-02-17 09:45:05.250 +07:00 [INF] [Filter] Name : 
+2021-02-17 09:45:05.251 +07:00 [INF] [Filter] Ordering
+2021-02-17 09:45:05.252 +07:00 [INF] [Filter] Ordering by Field createdBy.username asc
+2021-02-17 09:45:05.255 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 09:45:05.260 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 09:45:05.266 +07:00 [INF] [Filter] Map Data
+2021-02-17 09:45:05.267 +07:00 [INF] [Filter] Success.
+2021-02-17 09:45:05.269 +07:00 [INF] End [Filter] Process.
+2021-02-17 09:48:52.206 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 09:48:52.244 +07:00 [INF] [GetAll] Success.
+2021-02-17 09:48:52.258 +07:00 [INF] End [GetAll] Process.
