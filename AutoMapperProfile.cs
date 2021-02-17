@@ -21,9 +21,11 @@ namespace SmileShop.API
 
             CreateMap<Product, GetProductDto>();
             CreateMap<Product, GetProductNameDto>();
+            CreateMap<Product, RemoveProductDto>();
             CreateMap<ProductGroup, GetProductGroupDto>();
             CreateMap<ProductGroup, GetProductGroupNameDto>();
             CreateMap<ProductGroup, GetProductGroupFilterDto>();
+            CreateMap<ProductGroup, RemoveProductGroupDto>();
         }
     }
 }

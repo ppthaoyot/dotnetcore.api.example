@@ -116,7 +116,12 @@ namespace SmileShop.API.Services.Product
                 await _dBContext.SaveChangesAsync();
                 _log.LogInformation("[Add] Success.");
 
-                var getProduct = await _dBContext.Products.Include(x => x.ProductGroup).AsNoTracking().FirstOrDefaultAsync(x => x.Name == addProduct.Name);
+                var getProduct = await _dBContext.Products
+                                        .Include(x => x.ProductGroup)
+                                        .Include(x => x.CreatedBy)
+                                        .Include(x => x.UpdatedBy)
+                                        .AsNoTracking()
+                                        .FirstOrDefaultAsync(x => x.Name == addProduct.Name);
 
                 var dto = _mapper.Map<GetProductDto>(getProduct);
 
@@ -135,7 +140,11 @@ namespace SmileShop.API.Services.Product
             try
             {
                 _log.LogInformation("Start [Update] Process");
-                var product = await _dBContext.Products.FirstOrDefaultAsync(x => x.Id == productId);
+                var product = await _dBContext.Products
+                                    .Include(x => x.ProductGroup)
+                                    .Include(x => x.CreatedBy)
+                                    .Include(x => x.UpdatedBy)
+                                    .FirstOrDefaultAsync(x => x.Id == productId);
 
                 _log.LogInformation("Check Product ID.");
                 if (product is null)
@@ -189,7 +198,7 @@ namespace SmileShop.API.Services.Product
                 return ResponseResult.Failure<GetProductDto>(ex.Message);
             }
         }
-        public async Task<ServiceResponse<GetProductDto>> Remove(int productId)
+        public async Task<ServiceResponse<RemoveProductDto>> Remove(int productId)
         {
             try
             {
@@ -200,7 +209,7 @@ namespace SmileShop.API.Services.Product
                 if (product is null)
                 {
                     _log.LogInformation(String.Format("Product ID {0} not exists.", productId));
-                    return ResponseResult.Failure<GetProductDto>("Not Found.");
+                    return ResponseResult.Failure<RemoveProductDto>("Not Found.");
                 }
 
                 _log.LogInformation("Remove [isActive = false] Product.");
@@ -210,7 +219,7 @@ namespace SmileShop.API.Services.Product
                 await _dBContext.SaveChangesAsync();
                 _log.LogInformation("[Remove] Success.");
 
-                var dto = _mapper.Map<GetProductDto>(product);
+                var dto = _mapper.Map<RemoveProductDto>(product);
 
                 _log.LogInformation("End [Remove] process.");
                 return ResponseResult.Success(dto, "Remove Success (isActive:false)");
@@ -219,7 +228,7 @@ namespace SmileShop.API.Services.Product
             catch (System.Exception ex)
             {
                 _log.LogError(ex.Message);
-                return ResponseResult.Failure<GetProductDto>(ex.Message);
+                return ResponseResult.Failure<RemoveProductDto>(ex.Message);
             }
         }
         public async Task<ServiceResponseWithPagination<List<GetProductDto>>> Filter(FilterProduct filter)
@@ -227,7 +236,7 @@ namespace SmileShop.API.Services.Product
             try
             {
                 _log.LogInformation("Start [Filter] Process.");
-                var queryable = _dBContext.Products.Include(x => x.CreatedBy).Include(x => x.ProductGroup).AsQueryable();
+                var queryable = _dBContext.Products.Include(x => x.CreatedBy).Include(x => x.UpdatedBy).Include(x => x.ProductGroup).AsQueryable();
 
                 _log.LogInformation($"[Filter] Name : {filter.Name}");
                 //Filter

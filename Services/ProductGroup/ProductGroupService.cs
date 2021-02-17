@@ -175,7 +175,7 @@ namespace SmileShop.API.Services.ProductGroup
                 return ResponseResult.Failure<GetProductGroupDto>(ex.Message);
             }
         }
-        public async Task<ServiceResponse<GetProductGroupDto>> Remove(int productGroupId)
+        public async Task<ServiceResponse<RemoveProductGroupDto>> Remove(int productGroupId)
         {
             try
             {
@@ -186,7 +186,7 @@ namespace SmileShop.API.Services.ProductGroup
                 if (productGroup is null)
                 {
                     _log.LogInformation(String.Format("Product Group ID {0} not exists.", productGroupId));
-                    return ResponseResult.Failure<GetProductGroupDto>("Not Found.");
+                    return ResponseResult.Failure<RemoveProductGroupDto>("Not Found.");
                 }
 
                 _log.LogInformation("Remove [isActive = false] Product Group.");
@@ -196,7 +196,7 @@ namespace SmileShop.API.Services.ProductGroup
                 await _dBContext.SaveChangesAsync();
                 _log.LogInformation("[Remove] Success.");
 
-                var dto = _mapper.Map<GetProductGroupDto>(productGroup);
+                var dto = _mapper.Map<RemoveProductGroupDto>(productGroup);
 
                 _log.LogInformation("End [Remove] process.");
                 return ResponseResult.Success(dto, "Remove Success (isActive:false)");
@@ -205,7 +205,7 @@ namespace SmileShop.API.Services.ProductGroup
             catch (System.Exception ex)
             {
                 _log.LogError(ex.Message);
-                return ResponseResult.Failure<GetProductGroupDto>(ex.Message);
+                return ResponseResult.Failure<RemoveProductGroupDto>(ex.Message);
             }
         }
         public async Task<ServiceResponseWithPagination<List<GetProductGroupFilterDto>>> Filter(FilterProductGroup filter)

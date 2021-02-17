@@ -11,7 +11,7 @@ namespace SmileShop.API.Services.Product
         Task<ServiceResponse<GetProductDto>> GetById(int productId);
         Task<ServiceResponse<GetProductDto>> Add(AddProductDto newProduct);
         Task<ServiceResponse<GetProductDto>> Update(int productId, UpdateProductDto updateProduct);
-        Task<ServiceResponse<GetProductDto>> Remove(int productId);
+        Task<ServiceResponse<RemoveProductDto>> Remove(int productId);
         Task<ServiceResponseWithPagination<List<GetProductDto>>> Filter(FilterProduct filter);
     }
 }

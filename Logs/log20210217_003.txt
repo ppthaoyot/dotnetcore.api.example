@@ -445,3 +445,830 @@ System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address
 2021-02-17 11:18:11.021 +07:00 [INF] Start [GetAll] Process.
 2021-02-17 11:18:11.027 +07:00 [INF] [GetAll] Success.
 2021-02-17 11:18:11.027 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:22:36.161 +07:00 [INF] Starting web host
+2021-02-17 11:22:39.353 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:22:40.415 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:22:40.438 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:23:41.215 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:23:41.252 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:23:41.252 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:24:12.519 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:24:12.554 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:24:12.564 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:28:06.344 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:28:06.361 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:28:06.362 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:28:06.379 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:28:06.508 +07:00 [INF] [GetById] Success
+2021-02-17 11:28:06.514 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:28:09.186 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:28:09.195 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:28:09.210 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:28:09.211 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:28:09.224 +07:00 [INF] [GetById] Success
+2021-02-17 11:28:09.224 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:28:11.078 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:28:11.079 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:28:11.079 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:28:11.079 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:28:11.081 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:28:11.110 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:28:11.130 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:28:11.139 +07:00 [INF] [Filter] Success.
+2021-02-17 11:28:11.139 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:28:12.353 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:28:12.354 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:28:12.354 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:28:12.354 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:28:12.354 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:28:12.360 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:28:12.377 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:28:12.378 +07:00 [INF] [Filter] Success.
+2021-02-17 11:28:12.378 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:28:14.575 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:28:14.575 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:28:14.591 +07:00 [INF] [GetById] Success
+2021-02-17 11:28:14.591 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:28:14.591 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:28:14.591 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:28:18.477 +07:00 [INF] Start [Update] Process
+2021-02-17 11:28:18.487 +07:00 [INF] Check Product ID.
+2021-02-17 11:28:18.487 +07:00 [INF] Check Product Name.
+2021-02-17 11:28:18.496 +07:00 [INF] Check ProductGroup.
+2021-02-17 11:28:18.503 +07:00 [INF] Update Product Group.
+2021-02-17 11:28:18.638 +07:00 [INF] [Update] Success.
+2021-02-17 11:28:18.638 +07:00 [INF] End [Update] process.
+2021-02-17 11:28:18.739 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:28:18.739 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:28:18.739 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:28:18.739 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:28:18.739 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:28:18.744 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:28:18.745 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:28:18.745 +07:00 [INF] [Filter] Success.
+2021-02-17 11:28:18.745 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:28:26.468 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:28:26.468 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:28:26.476 +07:00 [INF] [GetById] Success
+2021-02-17 11:28:26.477 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:28:26.484 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:28:26.485 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:28:30.188 +07:00 [INF] Start [Update] Process
+2021-02-17 11:28:30.192 +07:00 [INF] Check Product ID.
+2021-02-17 11:28:30.193 +07:00 [INF] Check Product Name.
+2021-02-17 11:28:30.195 +07:00 [INF] Check ProductGroup.
+2021-02-17 11:28:30.196 +07:00 [INF] Update Product Group.
+2021-02-17 11:28:30.201 +07:00 [INF] [Update] Success.
+2021-02-17 11:28:30.202 +07:00 [INF] End [Update] process.
+2021-02-17 11:28:30.307 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:28:30.307 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:28:30.307 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:28:30.307 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:28:30.307 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:28:30.309 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:28:30.310 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:28:30.310 +07:00 [INF] [Filter] Success.
+2021-02-17 11:28:30.310 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:28:35.569 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:28:35.570 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:28:35.570 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:28:35.570 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:28:35.570 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:28:35.575 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:28:35.579 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:28:35.579 +07:00 [INF] [Filter] Success.
+2021-02-17 11:28:35.579 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:28:37.534 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:28:37.534 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:28:37.541 +07:00 [INF] [GetById] Success
+2021-02-17 11:28:37.541 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:28:37.542 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:28:37.542 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:28:44.613 +07:00 [INF] Start [Update] Process
+2021-02-17 11:28:44.669 +07:00 [INF] Check Product ID.
+2021-02-17 11:28:44.669 +07:00 [INF] Check Product Name.
+2021-02-17 11:28:44.673 +07:00 [INF] Check ProductGroup.
+2021-02-17 11:28:44.675 +07:00 [INF] Update Product Group.
+2021-02-17 11:28:44.691 +07:00 [INF] [Update] Success.
+2021-02-17 11:28:44.691 +07:00 [INF] End [Update] process.
+2021-02-17 11:28:44.825 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:28:44.826 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:28:44.826 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:28:44.826 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:28:44.826 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:28:45.173 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:28:45.185 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:28:45.185 +07:00 [INF] [Filter] Success.
+2021-02-17 11:28:45.185 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:30:58.980 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:30:58.981 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:30:58.989 +07:00 [INF] [GetById] Success
+2021-02-17 11:30:58.989 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:30:58.993 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:30:58.993 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:31:02.442 +07:00 [INF] Start [Update] Process
+2021-02-17 11:31:02.448 +07:00 [INF] Check Product ID.
+2021-02-17 11:31:02.448 +07:00 [INF] Check Product Name.
+2021-02-17 11:31:02.453 +07:00 [INF] Check ProductGroup.
+2021-02-17 11:31:02.457 +07:00 [INF] Update Product Group.
+2021-02-17 11:31:02.478 +07:00 [INF] [Update] Success.
+2021-02-17 11:31:02.478 +07:00 [INF] End [Update] process.
+2021-02-17 11:31:02.623 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:31:02.624 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:31:02.624 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:31:02.624 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:31:02.624 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:31:02.626 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:31:02.629 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:31:02.630 +07:00 [INF] [Filter] Success.
+2021-02-17 11:31:02.630 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:31:15.244 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:31:15.245 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:31:15.253 +07:00 [INF] [GetById] Success
+2021-02-17 11:31:15.253 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:31:15.258 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:31:15.258 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:31:18.528 +07:00 [INF] Start [Update] Process
+2021-02-17 11:31:18.532 +07:00 [INF] Check Product ID.
+2021-02-17 11:31:18.532 +07:00 [INF] Check Product Name.
+2021-02-17 11:31:18.534 +07:00 [INF] Check ProductGroup.
+2021-02-17 11:31:18.536 +07:00 [INF] Update Product Group.
+2021-02-17 11:31:18.549 +07:00 [INF] [Update] Success.
+2021-02-17 11:31:18.549 +07:00 [INF] End [Update] process.
+2021-02-17 11:31:18.687 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:31:18.688 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:31:18.688 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:31:18.688 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:31:18.688 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:31:18.689 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:31:18.691 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:31:18.691 +07:00 [INF] [Filter] Success.
+2021-02-17 11:31:18.691 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:31:38.412 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:31:38.413 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:31:38.417 +07:00 [INF] [GetById] Success
+2021-02-17 11:31:38.417 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:31:38.417 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:31:38.417 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:31:39.905 +07:00 [INF] Start [Update] Process
+2021-02-17 11:31:39.908 +07:00 [INF] Check Product ID.
+2021-02-17 11:31:39.908 +07:00 [INF] Check Product Name.
+2021-02-17 11:31:39.910 +07:00 [INF] Check ProductGroup.
+2021-02-17 11:31:39.912 +07:00 [INF] Update Product Group.
+2021-02-17 11:31:39.917 +07:00 [INF] [Update] Success.
+2021-02-17 11:31:39.917 +07:00 [INF] End [Update] process.
+2021-02-17 11:31:40.062 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:31:40.062 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:31:40.062 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:31:40.062 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:31:40.062 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:31:40.064 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:31:40.065 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:31:40.065 +07:00 [INF] [Filter] Success.
+2021-02-17 11:31:40.065 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:31:48.702 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:31:48.702 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:31:48.706 +07:00 [INF] [GetById] Success
+2021-02-17 11:31:48.706 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:31:48.707 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:31:48.707 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:31:51.386 +07:00 [INF] Start [Update] Process
+2021-02-17 11:31:51.389 +07:00 [INF] Check Product ID.
+2021-02-17 11:31:51.389 +07:00 [INF] Check Product Name.
+2021-02-17 11:31:51.390 +07:00 [INF] Check ProductGroup.
+2021-02-17 11:31:51.392 +07:00 [INF] Update Product Group.
+2021-02-17 11:31:51.395 +07:00 [INF] [Update] Success.
+2021-02-17 11:31:51.395 +07:00 [INF] End [Update] process.
+2021-02-17 11:31:51.527 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:31:51.527 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:31:51.527 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:31:51.527 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:31:51.527 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:31:51.529 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:31:51.530 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:31:51.530 +07:00 [INF] [Filter] Success.
+2021-02-17 11:31:51.530 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:33:42.931 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:33:42.931 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:33:42.931 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:33:42.931 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:33:42.931 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:33:42.933 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:33:42.937 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:33:42.937 +07:00 [INF] [Filter] Success.
+2021-02-17 11:33:42.937 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:33:44.709 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:33:44.728 +07:00 [INF] [GetById] Success
+2021-02-17 11:33:44.735 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:33:47.057 +07:00 [INF] Start [Update] Process
+2021-02-17 11:33:47.066 +07:00 [INF] Check Product Group ID.
+2021-02-17 11:33:47.066 +07:00 [INF] Check Product Group Name.
+2021-02-17 11:33:47.071 +07:00 [INF] Update Product Group.
+2021-02-17 11:33:47.095 +07:00 [INF] [Update] Success.
+2021-02-17 11:33:47.095 +07:00 [INF] End [Update] process.
+2021-02-17 11:33:47.191 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:33:47.191 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:33:47.191 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:33:47.191 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:33:47.191 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:33:47.193 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:33:47.194 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:33:47.194 +07:00 [INF] [Filter] Success.
+2021-02-17 11:33:47.194 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:33:49.759 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:33:49.762 +07:00 [INF] [GetById] Success
+2021-02-17 11:33:49.762 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:33:52.616 +07:00 [INF] Start [Update] Process
+2021-02-17 11:33:52.619 +07:00 [INF] Check Product Group ID.
+2021-02-17 11:33:52.619 +07:00 [INF] Check Product Group Name.
+2021-02-17 11:33:52.620 +07:00 [INF] Update Product Group.
+2021-02-17 11:33:52.626 +07:00 [INF] [Update] Success.
+2021-02-17 11:33:52.626 +07:00 [INF] End [Update] process.
+2021-02-17 11:33:52.713 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:33:52.714 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:33:52.714 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:33:52.714 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:33:52.714 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:33:52.716 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:33:52.718 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:33:52.718 +07:00 [INF] [Filter] Success.
+2021-02-17 11:33:52.718 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:33:55.003 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:33:55.006 +07:00 [INF] [GetById] Success
+2021-02-17 11:33:55.006 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:33:57.010 +07:00 [INF] Start [Update] Process
+2021-02-17 11:33:57.013 +07:00 [INF] Check Product Group ID.
+2021-02-17 11:33:57.013 +07:00 [INF] Check Product Group Name.
+2021-02-17 11:33:57.015 +07:00 [INF] Update Product Group.
+2021-02-17 11:33:57.021 +07:00 [INF] [Update] Success.
+2021-02-17 11:33:57.021 +07:00 [INF] End [Update] process.
+2021-02-17 11:33:57.112 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:33:57.112 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:33:57.112 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:33:57.112 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:33:57.112 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:33:57.114 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:33:57.116 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:33:57.116 +07:00 [INF] [Filter] Success.
+2021-02-17 11:33:57.116 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:33:59.343 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:33:59.344 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:33:59.344 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:33:59.344 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:33:59.344 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:33:59.346 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:33:59.348 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:33:59.348 +07:00 [INF] [Filter] Success.
+2021-02-17 11:33:59.348 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:34:01.056 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:34:01.057 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:34:01.057 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:34:01.057 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:34:01.057 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:34:01.058 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:34:01.059 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:34:01.059 +07:00 [INF] [Filter] Success.
+2021-02-17 11:34:01.059 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:34:02.350 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:34:02.353 +07:00 [INF] [GetById] Success
+2021-02-17 11:34:02.353 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:34:04.403 +07:00 [INF] Start [Update] Process
+2021-02-17 11:34:04.405 +07:00 [INF] Check Product Group ID.
+2021-02-17 11:34:04.405 +07:00 [INF] Check Product Group Name.
+2021-02-17 11:34:04.406 +07:00 [INF] Update Product Group.
+2021-02-17 11:34:04.410 +07:00 [INF] [Update] Success.
+2021-02-17 11:34:04.410 +07:00 [INF] End [Update] process.
+2021-02-17 11:34:04.523 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:34:04.524 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:34:04.524 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:34:04.524 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:34:04.524 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:34:04.525 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:34:04.526 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:34:04.526 +07:00 [INF] [Filter] Success.
+2021-02-17 11:34:04.526 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:35:20.783 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:35:20.804 +07:00 [INF] [GetById] Success
+2021-02-17 11:35:20.804 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:35:24.690 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:35:24.690 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:35:24.690 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:35:24.690 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:35:24.690 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:35:24.692 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:35:24.696 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:35:24.696 +07:00 [INF] [Filter] Success.
+2021-02-17 11:35:24.696 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:35:34.639 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:35:34.639 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:35:34.648 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:35:34.648 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:35:34.656 +07:00 [INF] [GetById] Success
+2021-02-17 11:35:34.656 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:35:38.660 +07:00 [INF] Start [Update] Process
+2021-02-17 11:35:38.662 +07:00 [INF] Check Product ID.
+2021-02-17 11:35:38.662 +07:00 [INF] Check Product Name.
+2021-02-17 11:35:38.666 +07:00 [INF] Check ProductGroup.
+2021-02-17 11:35:38.669 +07:00 [INF] Update Product Group.
+2021-02-17 11:35:38.676 +07:00 [INF] [Update] Success.
+2021-02-17 11:35:38.676 +07:00 [INF] End [Update] process.
+2021-02-17 11:35:38.807 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:35:38.808 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:35:38.808 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:35:38.808 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:35:38.808 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:35:38.809 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:35:38.810 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:35:38.810 +07:00 [INF] [Filter] Success.
+2021-02-17 11:35:38.810 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:35:59.708 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:35:59.708 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:35:59.711 +07:00 [INF] [GetById] Success
+2021-02-17 11:35:59.711 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:35:59.715 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:35:59.716 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:36:02.458 +07:00 [INF] Start [Update] Process
+2021-02-17 11:36:02.461 +07:00 [INF] Check Product ID.
+2021-02-17 11:36:02.461 +07:00 [INF] Check Product Name.
+2021-02-17 11:36:02.462 +07:00 [INF] Check ProductGroup.
+2021-02-17 11:36:02.464 +07:00 [INF] Update Product Group.
+2021-02-17 11:36:02.475 +07:00 [INF] [Update] Success.
+2021-02-17 11:36:02.475 +07:00 [INF] End [Update] process.
+2021-02-17 11:36:02.612 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:36:02.612 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:36:02.612 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:36:02.612 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:36:02.612 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:36:02.613 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:36:02.614 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:36:02.615 +07:00 [INF] [Filter] Success.
+2021-02-17 11:36:02.615 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:39:36.473 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:39:36.473 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:39:36.473 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:39:36.473 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:39:36.473 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:39:36.475 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:39:36.478 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:39:36.478 +07:00 [INF] [Filter] Success.
+2021-02-17 11:39:36.478 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:40:45.484 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:40:45.484 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:40:45.484 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:40:45.484 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:40:45.484 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:40:45.486 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:40:45.492 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:40:45.492 +07:00 [INF] [Filter] Success.
+2021-02-17 11:40:45.492 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:40:47.519 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:40:47.519 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:40:47.534 +07:00 [INF] [GetById] Success
+2021-02-17 11:40:47.534 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:40:47.539 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:40:47.539 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:40:49.222 +07:00 [INF] Start [Update] Process
+2021-02-17 11:40:49.226 +07:00 [INF] Check Product ID.
+2021-02-17 11:40:49.226 +07:00 [INF] Check Product Name.
+2021-02-17 11:40:50.050 +07:00 [INF] Check ProductGroup.
+2021-02-17 11:40:50.052 +07:00 [INF] Update Product Group.
+2021-02-17 11:40:50.226 +07:00 [INF] [Update] Success.
+2021-02-17 11:40:50.226 +07:00 [INF] End [Update] process.
+2021-02-17 11:40:50.369 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:40:50.369 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:40:50.369 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:40:50.369 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:40:50.369 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:40:50.716 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:40:50.722 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:40:50.722 +07:00 [INF] [Filter] Success.
+2021-02-17 11:40:50.722 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:41:04.274 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:41:04.274 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:41:04.286 +07:00 [INF] [GetById] Success
+2021-02-17 11:41:04.286 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:41:04.292 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:41:04.292 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:41:07.846 +07:00 [INF] Start [Update] Process
+2021-02-17 11:41:07.849 +07:00 [INF] Check Product ID.
+2021-02-17 11:41:07.849 +07:00 [INF] Check Product Name.
+2021-02-17 11:41:07.852 +07:00 [INF] Check ProductGroup.
+2021-02-17 11:41:07.855 +07:00 [INF] Update Product Group.
+2021-02-17 11:41:07.869 +07:00 [INF] [Update] Success.
+2021-02-17 11:41:07.869 +07:00 [INF] End [Update] process.
+2021-02-17 11:41:07.978 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:41:07.978 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:41:07.978 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:41:07.978 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:41:07.979 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:41:07.980 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:41:07.983 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:41:07.983 +07:00 [INF] [Filter] Success.
+2021-02-17 11:41:07.983 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:41:31.699 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:41:31.699 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:41:31.703 +07:00 [INF] [GetById] Success
+2021-02-17 11:41:31.703 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:41:31.708 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:41:31.708 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:41:45.496 +07:00 [INF] Start [Update] Process
+2021-02-17 11:41:45.499 +07:00 [INF] Check Product ID.
+2021-02-17 11:41:45.499 +07:00 [INF] Check Product Name.
+2021-02-17 11:41:45.501 +07:00 [INF] Check ProductGroup.
+2021-02-17 11:41:45.502 +07:00 [INF] Update Product Group.
+2021-02-17 11:41:45.513 +07:00 [INF] [Update] Success.
+2021-02-17 11:41:45.514 +07:00 [INF] End [Update] process.
+2021-02-17 11:41:45.634 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:41:45.634 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:41:45.634 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:41:45.634 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:41:45.634 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:41:45.636 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:41:45.637 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:41:45.637 +07:00 [INF] [Filter] Success.
+2021-02-17 11:41:45.637 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:41:48.351 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:41:48.356 +07:00 [INF] [GetById] Success
+2021-02-17 11:41:48.356 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:41:48.357 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:41:48.361 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:41:48.361 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:42:00.175 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:42:00.175 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:42:00.182 +07:00 [INF] [GetById] Success
+2021-02-17 11:42:00.182 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:42:00.189 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:42:00.189 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:42:29.880 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:42:29.880 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:42:29.880 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:42:29.880 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:42:29.880 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:42:29.882 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:42:29.887 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:42:29.887 +07:00 [INF] [Filter] Success.
+2021-02-17 11:42:29.887 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:42:32.078 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:42:32.078 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:42:32.082 +07:00 [INF] [GetById] Success
+2021-02-17 11:42:32.082 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:42:32.083 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:42:32.083 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:42:46.722 +07:00 [INF] Start [Update] Process
+2021-02-17 11:42:46.725 +07:00 [INF] Check Product ID.
+2021-02-17 11:42:46.725 +07:00 [INF] Check Product Name.
+2021-02-17 11:42:46.728 +07:00 [INF] Check ProductGroup.
+2021-02-17 11:42:46.731 +07:00 [INF] Update Product Group.
+2021-02-17 11:42:46.736 +07:00 [INF] [Update] Success.
+2021-02-17 11:42:46.737 +07:00 [INF] End [Update] process.
+2021-02-17 11:42:46.867 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:42:46.867 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:42:46.867 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:42:46.867 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:42:46.867 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:42:46.868 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:42:46.870 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:42:46.870 +07:00 [INF] [Filter] Success.
+2021-02-17 11:42:46.870 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:42:49.124 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:42:49.127 +07:00 [INF] [GetById] Success
+2021-02-17 11:42:49.127 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:42:49.127 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:42:49.130 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:42:49.131 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:42:51.943 +07:00 [INF] Start [Update] Process
+2021-02-17 11:42:51.945 +07:00 [INF] Check Product ID.
+2021-02-17 11:42:51.945 +07:00 [INF] Check Product Name.
+2021-02-17 11:42:51.947 +07:00 [INF] Check ProductGroup.
+2021-02-17 11:42:51.948 +07:00 [INF] Update Product Group.
+2021-02-17 11:42:51.952 +07:00 [INF] [Update] Success.
+2021-02-17 11:42:51.952 +07:00 [INF] End [Update] process.
+2021-02-17 11:42:52.077 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:42:52.078 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:42:52.078 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:42:52.078 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:42:52.078 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:42:52.079 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:42:52.081 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:42:52.081 +07:00 [INF] [Filter] Success.
+2021-02-17 11:42:52.081 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:44:28.372 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:44:28.373 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:44:28.376 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:44:28.376 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:44:28.376 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:44:28.384 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:44:28.389 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:44:28.389 +07:00 [INF] [Filter] Success.
+2021-02-17 11:44:28.389 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:44:31.661 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:44:31.661 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:44:31.665 +07:00 [INF] [GetById] Success
+2021-02-17 11:44:31.665 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:44:31.673 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:44:31.674 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:45:26.377 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:45:26.377 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:45:26.377 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:45:26.377 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:45:26.377 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:45:26.385 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:45:26.390 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:45:26.390 +07:00 [INF] [Filter] Success.
+2021-02-17 11:45:26.390 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:45:30.859 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:45:30.862 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:45:30.866 +07:00 [INF] [GetById] Success
+2021-02-17 11:45:30.866 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:45:30.874 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:45:30.874 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:46:06.074 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:46:06.075 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:46:06.075 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:46:06.075 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:46:06.075 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:46:06.078 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:46:06.079 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:46:06.080 +07:00 [INF] [Filter] Success.
+2021-02-17 11:46:06.080 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:46:29.357 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:46:29.359 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:46:29.369 +07:00 [INF] [GetById] Success
+2021-02-17 11:46:29.369 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:46:29.375 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:46:29.375 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:46:42.905 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:46:42.905 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:46:42.905 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:46:42.906 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:46:42.906 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:46:42.909 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:46:42.914 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:46:42.914 +07:00 [INF] [Filter] Success.
+2021-02-17 11:46:42.915 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:46:57.174 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:46:57.175 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:46:57.175 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:46:57.175 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:46:57.175 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:46:57.177 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:46:57.179 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:46:57.179 +07:00 [INF] [Filter] Success.
+2021-02-17 11:46:57.179 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:47:09.534 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:47:09.534 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:47:09.534 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:47:09.534 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:47:09.534 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:47:09.536 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:47:09.539 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:47:09.539 +07:00 [INF] [Filter] Success.
+2021-02-17 11:47:09.539 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:47:29.797 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:47:29.801 +07:00 [INF] [GetById] Success
+2021-02-17 11:47:29.801 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:48:55.537 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:48:55.539 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:48:55.545 +07:00 [INF] [GetById] Success
+2021-02-17 11:48:55.545 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:48:55.549 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:48:55.549 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:49:11.099 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:49:11.104 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:49:11.104 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:49:11.104 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:49:11.106 +07:00 [INF] [GetById] Success
+2021-02-17 11:49:11.107 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:49:23.021 +07:00 [INF] Start [Update] Process
+2021-02-17 11:49:23.023 +07:00 [INF] Check Product ID.
+2021-02-17 11:49:23.023 +07:00 [INF] Check Product Name.
+2021-02-17 11:49:23.026 +07:00 [INF] Check ProductGroup.
+2021-02-17 11:49:23.027 +07:00 [INF] Update Product Group.
+2021-02-17 11:49:23.039 +07:00 [INF] [Update] Success.
+2021-02-17 11:49:23.039 +07:00 [INF] End [Update] process.
+2021-02-17 11:49:25.309 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:49:25.309 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:49:25.309 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:49:25.309 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:49:25.309 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:49:25.311 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:49:25.313 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:49:25.314 +07:00 [INF] [Filter] Success.
+2021-02-17 11:49:25.314 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:50:22.860 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:50:22.860 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:50:22.860 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:50:22.861 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:50:22.864 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:50:22.868 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:50:22.877 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:50:22.877 +07:00 [INF] [Filter] Success.
+2021-02-17 11:50:22.877 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:50:29.792 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:50:29.792 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:50:29.793 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:50:29.793 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:50:29.793 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:50:29.803 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:50:29.808 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:50:29.809 +07:00 [INF] [Filter] Success.
+2021-02-17 11:50:29.809 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:50:59.048 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:50:59.049 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:50:59.049 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:50:59.049 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:50:59.049 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:50:59.052 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:50:59.056 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:50:59.056 +07:00 [INF] [Filter] Success.
+2021-02-17 11:50:59.056 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:54:39.098 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:54:39.098 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:54:39.145 +07:00 [INF] [GetById] Success
+2021-02-17 11:54:39.145 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:54:39.156 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:54:39.156 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:54:48.105 +07:00 [INF] Start [Update] Process
+2021-02-17 11:54:48.107 +07:00 [INF] Check Product ID.
+2021-02-17 11:54:48.107 +07:00 [INF] Check Product Name.
+2021-02-17 11:54:48.109 +07:00 [INF] Check ProductGroup.
+2021-02-17 11:54:48.111 +07:00 [INF] Update Product Group.
+2021-02-17 11:54:48.128 +07:00 [INF] [Update] Success.
+2021-02-17 11:54:48.128 +07:00 [INF] End [Update] process.
+2021-02-17 11:54:50.189 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:54:50.190 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:54:50.190 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:54:50.190 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:54:50.190 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:54:50.199 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:54:50.203 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:54:50.203 +07:00 [INF] [Filter] Success.
+2021-02-17 11:54:50.203 +07:00 [INF] End [Filter] Process.
+2021-02-17 11:54:59.429 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 11:54:59.429 +07:00 [INF] Start [GetById] Process
+2021-02-17 11:54:59.436 +07:00 [INF] [GetById] Success
+2021-02-17 11:54:59.437 +07:00 [INF] End [GetById] Process.
+2021-02-17 11:54:59.437 +07:00 [INF] [GetAll] Success.
+2021-02-17 11:54:59.437 +07:00 [INF] End [GetAll] Process.
+2021-02-17 11:55:02.961 +07:00 [INF] Start [Update] Process
+2021-02-17 11:55:02.964 +07:00 [INF] Check Product ID.
+2021-02-17 11:55:02.964 +07:00 [INF] Check Product Name.
+2021-02-17 11:55:02.965 +07:00 [INF] Check ProductGroup.
+2021-02-17 11:55:02.967 +07:00 [INF] Update Product Group.
+2021-02-17 11:55:02.979 +07:00 [INF] [Update] Success.
+2021-02-17 11:55:02.979 +07:00 [INF] End [Update] process.
+2021-02-17 11:55:03.095 +07:00 [INF] Start [Filter] Process.
+2021-02-17 11:55:03.095 +07:00 [INF] [Filter] Name : 
+2021-02-17 11:55:03.095 +07:00 [INF] [Filter] Ordering
+2021-02-17 11:55:03.095 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 11:55:03.095 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 11:55:03.096 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 11:55:03.098 +07:00 [INF] [Filter] Map Data
+2021-02-17 11:55:03.098 +07:00 [INF] [Filter] Success.
+2021-02-17 11:55:03.098 +07:00 [INF] End [Filter] Process.
+2021-02-17 13:57:32.272 +07:00 [INF] Starting web host
+2021-02-17 13:57:49.614 +07:00 [INF] Start [Remove] Process
+2021-02-17 13:57:50.486 +07:00 [INF] Check Product ID.
+2021-02-17 13:57:50.488 +07:00 [INF] Remove [isActive = false] Product.
+2021-02-17 13:57:50.601 +07:00 [INF] [Remove] Success.
+2021-02-17 13:57:50.614 +07:00 [INF] End [Remove] process.
+2021-02-17 14:00:36.164 +07:00 [INF] Starting web host
+2021-02-17 14:00:39.683 +07:00 [INF] Start [Remove] Process
+2021-02-17 14:00:40.547 +07:00 [INF] Check Product ID.
+2021-02-17 14:00:40.549 +07:00 [INF] Remove [isActive = false] Product.
+2021-02-17 14:00:40.667 +07:00 [INF] [Remove] Success.
+2021-02-17 14:00:40.675 +07:00 [INF] End [Remove] process.
+2021-02-17 14:07:02.283 +07:00 [INF] Start [Remove] Process
+2021-02-17 14:07:02.362 +07:00 [INF] Check Product ID.
+2021-02-17 14:07:02.363 +07:00 [INF] Remove [isActive = false] Product.
+2021-02-17 14:07:02.375 +07:00 [INF] [Remove] Success.
+2021-02-17 14:07:02.381 +07:00 [INF] End [Remove] process.
+2021-02-17 14:07:09.785 +07:00 [INF] Starting web host
+2021-02-17 14:09:22.434 +07:00 [INF] Start [Remove] Process
+2021-02-17 14:09:23.353 +07:00 [INF] Check Product ID.
+2021-02-17 14:09:23.356 +07:00 [INF] Remove [isActive = false] Product.
+2021-02-17 14:09:23.482 +07:00 [INF] [Remove] Success.
+2021-02-17 14:09:23.491 +07:00 [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> RemoveProductDto
+System.Object -> SmileShop.API.DTOs.Product.RemoveProductDto
+2021-02-17 14:09:27.744 +07:00 [INF] Start [Remove] Process
+2021-02-17 14:09:27.772 +07:00 [INF] Check Product ID.
+2021-02-17 14:09:27.774 +07:00 [INF] Remove [isActive = false] Product.
+2021-02-17 14:09:27.779 +07:00 [INF] [Remove] Success.
+2021-02-17 14:09:27.781 +07:00 [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> RemoveProductDto
+System.Object -> SmileShop.API.DTOs.Product.RemoveProductDto
+2021-02-17 14:10:03.787 +07:00 [INF] Starting web host
+2021-02-17 14:10:37.672 +07:00 [INF] Start [Remove] Process
+2021-02-17 14:10:37.730 +07:00 [INF] Check Product ID.
+2021-02-17 14:10:37.732 +07:00 [INF] Remove [isActive = false] Product.
+2021-02-17 14:10:37.844 +07:00 [INF] [Remove] Success.
+2021-02-17 14:10:37.856 +07:00 [INF] End [Remove] process.
+2021-02-17 14:10:45.434 +07:00 [INF] Start [Filter] Process.
+2021-02-17 14:10:45.442 +07:00 [INF] [Filter] Name : 
+2021-02-17 14:10:45.444 +07:00 [INF] [Filter] Ordering
+2021-02-17 14:10:45.446 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 14:10:45.455 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 14:10:45.494 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 14:10:45.547 +07:00 [INF] [Filter] Map Data
+2021-02-17 14:10:45.560 +07:00 [INF] [Filter] Success.
+2021-02-17 14:10:45.562 +07:00 [INF] End [Filter] Process.
+2021-02-17 14:11:26.797 +07:00 [INF] Starting web host
+2021-02-17 14:11:32.407 +07:00 [INF] Start [Filter] Process.
+2021-02-17 14:11:32.881 +07:00 [INF] [Filter] Name : 
+2021-02-17 14:11:32.883 +07:00 [INF] [Filter] Ordering
+2021-02-17 14:11:32.886 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 14:11:32.890 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 14:11:34.416 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 14:11:34.836 +07:00 [INF] [Filter] Map Data
+2021-02-17 14:11:34.854 +07:00 [INF] [Filter] Success.
+2021-02-17 14:11:34.857 +07:00 [INF] End [Filter] Process.
+2021-02-17 14:14:17.316 +07:00 [INF] Starting web host
+2021-02-17 14:14:19.085 +07:00 [INF] Start [Filter] Process.
+2021-02-17 14:14:19.529 +07:00 [INF] [Filter] Name : 
+2021-02-17 14:14:19.530 +07:00 [INF] [Filter] Ordering
+2021-02-17 14:14:19.533 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 14:14:19.537 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 14:14:19.952 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 14:14:20.121 +07:00 [INF] [Filter] Map Data
+2021-02-17 14:14:20.139 +07:00 [INF] [Filter] Success.
+2021-02-17 14:14:20.142 +07:00 [INF] End [Filter] Process.
+2021-02-17 14:15:03.344 +07:00 [INF] Start [Add] Process
+2021-02-17 14:15:03.384 +07:00 [INF] Check ProductGroup.
+2021-02-17 14:15:03.395 +07:00 [INF] Add New Product.
+2021-02-17 14:15:03.525 +07:00 [INF] [Add] Success.
+2021-02-17 14:15:03.544 +07:00 [INF] End [Add] process.
+2021-02-17 14:16:07.703 +07:00 [INF] Start [Add] Process
+2021-02-17 14:16:07.719 +07:00 [ERR] Duplicate name exists.
+2021-02-17 14:16:13.610 +07:00 [INF] Start [Add] Process
+2021-02-17 14:16:13.617 +07:00 [INF] Check ProductGroup.
+2021-02-17 14:16:13.621 +07:00 [INF] Add New Product.
+2021-02-17 14:16:13.648 +07:00 [INF] [Add] Success.
+2021-02-17 14:16:13.657 +07:00 [INF] End [Add] process.
+2021-02-17 14:16:30.254 +07:00 [INF] Starting web host
+2021-02-17 14:16:33.014 +07:00 [INF] Start [Add] Process
+2021-02-17 14:16:33.853 +07:00 [INF] Check ProductGroup.
+2021-02-17 14:16:33.903 +07:00 [INF] Add New Product.
+2021-02-17 14:16:34.051 +07:00 [INF] [Add] Success.
+2021-02-17 14:16:34.103 +07:00 [INF] End [Add] process.
+2021-02-17 14:17:04.613 +07:00 [INF] Start [Update] Process
+2021-02-17 14:17:05.659 +07:00 [INF] Check Product ID.
+2021-02-17 14:17:05.660 +07:00 [INF] Check Product Name.
+2021-02-17 14:17:05.671 +07:00 [INF] Check ProductGroup.
+2021-02-17 14:17:05.680 +07:00 [INF] Update Product Group.
+2021-02-17 14:17:05.697 +07:00 [INF] [Update] Success.
+2021-02-17 14:17:05.698 +07:00 [INF] End [Update] process.
+2021-02-17 14:22:22.168 +07:00 [INF] Starting web host
+2021-02-17 14:22:28.528 +07:00 [INF] Start [Update] Process
+2021-02-17 14:22:29.434 +07:00 [INF] Check Product ID.
+2021-02-17 14:22:29.434 +07:00 [INF] Check Product Name.
+2021-02-17 14:22:29.447 +07:00 [INF] Check ProductGroup.
+2021-02-17 14:22:29.453 +07:00 [INF] Update Product Group.
+2021-02-17 14:22:29.561 +07:00 [INF] [Update] Success.
+2021-02-17 14:22:29.572 +07:00 [INF] End [Update] process.
+2021-02-17 14:22:48.364 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 14:22:48.405 +07:00 [INF] [GetAll] Success.
+2021-02-17 14:22:48.414 +07:00 [INF] End [GetAll] Process.
+2021-02-17 14:32:00.369 +07:00 [INF] Start [GetAll] Process.
+2021-02-17 14:32:00.450 +07:00 [INF] [GetAll] Success.
+2021-02-17 14:32:00.460 +07:00 [INF] End [GetAll] Process.
+2021-02-17 14:32:10.830 +07:00 [INF] Start [Filter] Process.
+2021-02-17 14:32:10.831 +07:00 [INF] [Filter] Name : 
+2021-02-17 14:32:10.832 +07:00 [INF] [Filter] Ordering
+2021-02-17 14:32:10.832 +07:00 [INF] [Filter] Ordering by Default : Id
+2021-02-17 14:32:10.833 +07:00 [INF] [Filter] Insert Pagination Parameters InResponse
+2021-02-17 14:32:10.862 +07:00 [INF] [Filter] Result Paginate
+2021-02-17 14:32:10.877 +07:00 [INF] [Filter] Map Data
+2021-02-17 14:32:10.883 +07:00 [INF] [Filter] Success.
+2021-02-17 14:32:10.883 +07:00 [INF] End [Filter] Process.
+2021-02-17 14:32:20.223 +07:00 [INF] Start [GetById] Process
+2021-02-17 14:32:20.243 +07:00 [INF] [GetById] Success
+2021-02-17 14:32:20.250 +07:00 [INF] End [GetById] Process.
+2021-02-17 14:32:27.646 +07:00 [INF] Start [Remove] Process
+2021-02-17 14:32:28.065 +07:00 [INF] Check Product Group ID.
+2021-02-17 14:32:28.065 +07:00 [INF] Remove [isActive = false] Product Group.
+2021-02-17 14:32:28.903 +07:00 [INF] [Remove] Success.
+2021-02-17 14:32:28.904 +07:00 [INF] End [Remove] process.
+2021-02-17 14:34:37.655 +07:00 [INF] Starting web host
+2021-02-17 14:34:42.823 +07:00 [INF] Start [Remove] Process
+2021-02-17 14:34:43.701 +07:00 [INF] Check Product Group ID.
+2021-02-17 14:34:43.701 +07:00 [INF] Remove [isActive = false] Product Group.
+2021-02-17 14:34:43.794 +07:00 [INF] [Remove] Success.
+2021-02-17 14:34:43.801 +07:00 [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> RemoveProductGroupDto
+System.Object -> SmileShop.API.DTOs.ProductGroup.RemoveProductGroupDto
+2021-02-17 14:34:56.181 +07:00 [INF] Start [Remove] Process
+2021-02-17 14:34:56.208 +07:00 [INF] Check Product Group ID.
+2021-02-17 14:34:56.208 +07:00 [INF] Remove [isActive = false] Product Group.
+2021-02-17 14:34:56.219 +07:00 [INF] [Remove] Success.
+2021-02-17 14:34:56.220 +07:00 [ERR] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> RemoveProductGroupDto
+System.Object -> SmileShop.API.DTOs.ProductGroup.RemoveProductGroupDto
